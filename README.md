@@ -14,9 +14,9 @@ It is based on Front-End developers' years of experience, with the addition from
 
 これは、フロントエンド開発者たちの数年に及ぶ経験にもとづいており、さらに他のオープンソースのチェックリストの内容も追加されています。
 
-## Table of Contents
+## 目次
 
-1. **[How to use](#how-to-use)**
+1. **[利用方法](#利用方法)**
 2. **[Head](#head)**
 3. **[HTML](#html)**
 4. **[Webfonts](#webfonts)**
@@ -28,7 +28,7 @@ It is based on Front-End developers' years of experience, with the addition from
 10. **[Accessibility](#accessibility)**
 11. **[SEO](#seo)**
 
-## How to use?
+## 利用方法
 
 <!--
 All items in the **Front-End Checklist** are required for the majority of the projects, but some elements can be omitted or are not essential (in the case of an administration web app, you may not need RSS feed for example). We choose to use 3 levels of flexibility:
