@@ -14,7 +14,25 @@ It is based on Front-End developers' years of experience, with the addition from
 
 これは、フロントエンド開発者たちの数年に及ぶ経験にもとづいており、さらに他のオープンソースのチェックリストの内容も追加されています。
 
+<!--
+## Table of Contents
+-->
+
 ## 目次
+
+<!--
+1. **[How to use](#how-to-use)**
+2. **[Head](#head)**
+3. **[HTML](#html)**
+4. **[Webfonts](#webfonts)**
+5. **[CSS](#css)**
+6. **[Images](#images)**
+7. **[JavaScript](#javascript)**
+8. **[Security](#security)**
+9. **[Performance](#performance)**
+10. **[Accessibility](#accessibility)**
+11. **[SEO](#seo)**
+-->
 
 1. **[利用方法](#利用方法)**
 2. **[Head](#head)**
@@ -27,6 +45,10 @@ It is based on Front-End developers' years of experience, with the addition from
 9. **[Performance](#performance)**
 10. **[Accessibility](#accessibility)**
 11. **[SEO](#seo)**
+
+<!--
+## How to use?
+-->
 
 ## 利用方法
 
