@@ -2,9 +2,17 @@
 [![Contributors](https://img.shields.io/github/contributors/thedaviddias/Front-End-Checklist.svg)](https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+<!--
 The **Front-End Checklist** is an exhaustive list of all elements you need to have / to test before launching your site / page HTML to production.
+-->
 
+**フロントエンドチェックリスト**は、みなさんがウェブサイトや HTML ページを本番環境で公開する前に確認するべきあらゆる項目を網羅したリストです。
+
+<!--
 It is based on Front-End developers' years of experience, with the addition from some other open-source checklists.
+-->
+
+これは、フロントエンド開発者たちの数年に及ぶ経験にもとづいており、さらに他のオープンソースのチェックリストの内容も追加されています。
 
 ## Table of Contents
 
@@ -22,17 +30,37 @@ It is based on Front-End developers' years of experience, with the addition from
 
 ## How to use?
 
+<!--
 All items in the **Front-End Checklist** are required for the majority of the projects, but some elements can be omitted or are not essential (in the case of an administration web app, you may not need RSS feed for example). We choose to use 3 levels of flexibility:
+-->
 
+**フロントエンドチェックリスト**のすべての項目は大半のプロジェクトで必要とされていますが、いくつかの項目は省略できますし、必須でもありません。（たとえば管理用のウェブアプリケーションの場合は、RSSは必要ないでしょう。）私たちは三段階で重要度を評価しています。
+
+<!--
 * ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) means that the item is **recommended** but can be omitted in some particular situations.
 * ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) means that the item is **highly recommended** and can eventually be omitted in some really particular cases. Some elements, if omitted, can have bad repercussions in terms of performance or SEO.
 * ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) means that the item **can't be omitted** by any reason. You may cause a dysfunction in your page or have accessibility or SEO issues. The testing priority needs to be on these elements first.
+-->
 
+* ![低](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) は、**推奨**を意味していますが、個別のシチュエーションによっては省略することも可能です。
+* ![中](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) は、**強く推奨**を意味していますが、ごく稀なケースでは必須ではなく省略することも可能です。いくつかの項目においては省略することによってパフォーマンスやSEOで悪影響がある可能性があります。
+* ![高](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) は、**必須**を意味しており、いかなる理由でも省略することはできません。これらを省略することで機能が不完全だったり、アクセシビリティやSEOの問題が発生することがあります。テストの優先順位はまずこれらの項目からはじめるべきです。
+
+<!--
 Some resources possess an emoticon to help you understand which type of content / help you may find on the checklist:
+-->
 
+チェックリストのいくつかのリソースでは、絵文字を使ってコンテンツの種類を理解したり、ヘルプを見つけやすいようにしています。
+
+<!--
 * 📖: documentation or article
 * 🛠: online tool / testing tool
 * 📹: media or video content
+-->
+
+* 📖: ドキュメンテーションまたは文章
+* 🛠: オンラインツール / テストツール
+* 📹: メディアまたはビデオコンテンツ
 
 ---
 
@@ -375,7 +403,7 @@ Some resources possess an emoticon to help you understand which type of content 
 > * [securityheaders.io](https://securityheaders.io/)
 > * [ASafaWeb - Automated Security Analyser for ASP.NET Websites](https://asafaweb.com/)
 
-### Best practices 
+### Best practices
 
 * [ ] **HTTPS:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) HTTPS is used on every pages and for all external content (plugins, images...).
 
