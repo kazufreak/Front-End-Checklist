@@ -158,7 +158,7 @@ Some resources possess an emoticon to help you understand which type of content 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-<!-->
+<!--
 * [ ] **Title:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) A title is used on all pages (SEO: No more than 65 characters, website title included)
 -->
 
