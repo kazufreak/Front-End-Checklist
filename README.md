@@ -64,9 +64,9 @@ All items in the **Front-End Checklist** are required for the majority of the pr
 * ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) means that the item **can't be omitted** by any reason. You may cause a dysfunction in your page or have accessibility or SEO issues. The testing priority needs to be on these elements first.
 -->
 
-* ![低](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) は、**推奨**を意味していますが、個別のシチュエーションによっては省略することも可能です。
-* ![中](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) は、**強く推奨**を意味していますが、ごく稀なケースでは必須ではなく省略することも可能です。いくつかの項目においては省略することによってパフォーマンスやSEOで悪影響がある可能性があります。
-* ![高](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) は、**必須**を意味しており、いかなる理由でも省略することはできません。これらを省略することで機能が不完全だったり、アクセシビリティやSEOの問題が発生することがあります。テストの優先順位はまずこれらの項目からはじめるべきです。
+* ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) は、**推奨**を意味していますが、個別のシチュエーションによっては省略することも可能です。
+* ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) は、**強く推奨**を意味していますが、ごく稀なケースでは必須ではなく省略することも可能です。いくつかの項目においては省略することによってパフォーマンスやSEOで悪影響がある可能性があります。
+* ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) は、**必須**を意味しており、いかなる理由でも省略することはできません。これらを省略することで機能が不完全だったり、アクセシビリティやSEOの問題が発生することがあります。テストの優先順位はまずこれらの項目からはじめるべきです。
 
 <!--
 Some resources possess an emoticon to help you understand which type of content / help you may find on the checklist:
@@ -88,11 +88,23 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ## Head
 
+<!--
 > **Notes:** You can find [a list of everything](https://github.com/joshbuchea/HEAD) that could be found in the `<head>` of an HTML document.
+-->
 
+> **備考:** HTMLドキュメントの `<head>` については、[すべてのリストがこちらにあります](https://github.com/joshbuchea/HEAD)。
+
+<!--
 ### Meta tag
+-->
 
+### Meta タグ
+
+<!--
 * [ ] **Doctype:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The Doctype is HTML5 and is at the top of all your HTML pages.
+-->
+
+* [ ] **Doctype:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Doctype が HTML5 であり、すべての HTML ページの先頭にあること。
 
 ```html
 <!-- Doctype HTML5 -->
@@ -101,32 +113,56 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > 📖 [Determining the character encoding - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
 
+<!--
 *The next 3 meta tags (Charset, X-UA Compatible and Viewport) need to come first in the head.*
+-->
 
+*次の3つの Meta タグ（Charset、X-UA、Viewport）は、`<head>`の先頭にあるべきです。*
+
+<!--
 * [ ] **Charset:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The charset declared (UTF-8) is declared correctly.
+-->
+
+* [ ] **Charset:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) 文字コードの宣言 (UTF-8) が正しく宣言されている。
 
 ```html
 <!-- Set character encoding for the document -->
 <meta charset="utf-8">
 ```
 
+<!--
 * [ ] **X-UA-Compatible:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) The X-UA-Compatible meta tag is present.
+-->
+
+* [ ] **X-UA-Compatible:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Meta タグ X-UA-Compatible が存在している。
 
 ```html
 <!-- Instruct Internet Explorer to use its latest rendering engine -->
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 ```
 
+<!--
 > 📖 [Specifying legacy document modes (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
+-->
 
+> 📖 [レガシードキュメントモードの設定 (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
+
+<!--
 * [ ] **Viewport:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The viewport is declared correctly
+-->
+
+* [ ] **Viewport:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) viewport が正しく宣言されている。
 
 ```html
 <!-- Viewport for responsive web design -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
+<!-->
 * [ ] **Title:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) A title is used on all pages (SEO: No more than 65 characters, website title included)
+-->
+
+* [ ] **Title:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) title が全てのページで使用されている。（SEO: ウェブサイトのタイトルも含めて65文字以内であること。）
 
 ```html
 <!-- Document Title -->
@@ -135,14 +171,22 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > 📖 [Title - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
+<!--
 * [ ] **Description:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) A meta description is provided, it is unique and doesn't possess more than 150 characters.
+-->
+
+* [ ] **Description:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) meta description が提供されており、これはユニークでありなおかつ150文字以下である。
 
 ```html
 <!-- Meta Description -->
 <meta name="description" content="Description of the page less than 150 characters">
 ```
 
+<!--
 * [ ] **Favicons:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Each favicon has been created and displays correctly. If you have only a ``favicon.ico``, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over ``.ico`` format (dimensions: 32x32px)
+-->
+
+* [ ] **Favicons:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) それぞれの favicon が作られており正しく表示されている。もし、``favicon.ico`` しかない場合、それはあなたのサイトのルートに設置されている。通常はマークアップは必要ない。しかしながら、以下の例のようにリンクをはることがまだ有効である。昨今では、**PNG フォーマット** が  ``.ico`` フォーマットよりも推奨されている。（サイズ: 32x32px）
 
 ```html
 <!-- Standard favicon -->
@@ -157,7 +201,11 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? - CSS Tricks](https://css-tricks.com/favicon-quiz/)
 > * 📖 [PNG favicons - caniuse](https://caniuse.com/#feat=link-icon-png)
 
+<!--
 * [ ] **Apple Touch Icon:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) Apple touch favicon apple-mobile-web-app-capable are present. *(Create your Apple Icon file with at least 200x200px dimension to support all dimensions that you may need)*
+-->
+
+* [ ] **Apple Touch Icon:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) apple-mobile-web-app-capable がある。 *(すくなくとも 200x200pxのAppleアイコンファイルを作成すれば、必要な全ての寸法をサポートする。)*
 
 ```html
 <!-- Apple Touch Icon -->
@@ -166,7 +214,11 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
+<!--
 * [ ] **Canonical:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Use ``rel="canonical"`` to avoid duplicate content.
+-->
+
+* [ ] **Canonical:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 重複したコンテンツを避けるために ``rel="canonical"`` を使用している。
 
 ```html
 <!-- Helps prevent duplicate content issues -->
