@@ -225,15 +225,23 @@ Some resources possess an emoticon to help you understand which type of content 
 <link rel="canonical" href="http://example.com/2017/09/a-new-article-to-red.html">
 ```
 
-### HTML tags
+### HTML タグ
 
+<!--
 * [ ] **Language tag:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The language tag of your website is specified and related to the language of the current page.
+-->
+
+* [ ] **Language tag:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) あなたのサイトの言語タグが記述されており、そのページの言語を指定している。
 
 ```html
 <html lang="en">
 ```
 
+<!--
 * [ ] **Direction tag:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) The direction of lecture is specified on the body tag (It can be used on another HTML tag).
+-->
+
+* [ ] **Direction tag:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 文字方向が記述されている。（これは他の HTML タグ上でも使用可能である。）
 
 ```html
 <html dir="rtl">
@@ -241,23 +249,43 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > 📖 [dir - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
 
+<!--
 * [ ] **Alternate language:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) The language tag of your website is specified and related to the language of the current page.
+-->
+
+* [ ] **Alternate language:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) あなたのサイトの言語タグが既述されており、現在のページの言語に関連づけられている。（訳注：多言語コンテンツを想定）
 
 ```html
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
 ```
 
+<!--
 * [ ] **Conditional comments:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) Conditional comments are present for IE if needed.
+-->
+
+* [ ] **Conditional comments:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) もし必要なら、IE 用の条件分岐コメントタグが設置されている。
 
 > 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
+<!--
 * [ ] **RSS feed:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) If your project is a blog or has articles, an RSS link was provided.
+-->
 
+* [ ] **RSS feed:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) もしあなたのサイトがブログ、もしくは記事をもっているなら、RSS へのリンクが提供されている。
+
+<!--
 * [ ] **CSS Critical:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between ``<style></style>`` in a single line (minified).
+-->
+
+* [ ] **CSS Critical:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) クリティカル CSS (または "above the fold") が、ページの可視部分をレンダリングするために使用されるすべての CSS を収集していること。それは主な CSS を読み込む前に呼び出されており、``<style></style>`` の間に1行で記述されている。（圧縮されている）
 
 > 🛠 [Critical by Addy Osmany on Github](https://github.com/addyosmani/critical)
 
+<!--
 * [ ] **CSS order:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All CSS files are loaded before any JavaScript files in the ``<head>``. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
+-->
+
+* [ ] **CSS order:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての CSS ファイルは ``<head>`` 内でいかなる JavaScript よりも先に読み込まれている。 (JS ファイルが時々非同期にあなたのページのトップに読み込まれる場合を除く。)
 
 ### Social meta
 
