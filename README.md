@@ -287,11 +287,23 @@ Some resources possess an emoticon to help you understand which type of content 
 
 * [ ] **CSS order:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての CSS ファイルは ``<head>`` 内でいかなる JavaScript よりも先に読み込まれている。 (JS ファイルが時々非同期にあなたのページのトップに読み込まれる場合を除く。)
 
+<!--
 ### Social meta
+-->
 
+### ソーシャル
+
+<!--
 ***Facebook OG*** and ***Twitter Cards*** are, for any website, highly recommended. The other social media tags can be considered if you target a particular presence on those and want to ensure the display.
+-->
 
+***Facebook OG*** と ***Twitter Cards*** は、すべてのウェブサイトに強く推奨します。 その他のソーシャルメディア用のタグは、特定の対象をターゲットとする際に、より確実に表示されるようになるでしょう。
+
+<!--
 * [ ] **Facebook Open Graph:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) All Facebook Open Graph (OG) are tested and no one is missing or with a false information. Images need to be at least 600 x 315 pixels, 1200 x 630 pixels recommended.
+-->
+
+* [ ] **Facebook Open Graph:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) すべての Facebook Open Graph (OG) はテストされ、不足がなく不具合もない。画像サイズは少なくとも 600 x 315 ピクセル以上であり、1200 x 630 ピクセルを推奨する。
 
 ```html
 <meta property="og:type" content="website">
@@ -303,8 +315,13 @@ Some resources possess an emoticon to help you understand which type of content 
 <meta property="og:locale" content="en_US">
 ```
 
+<!--
 > * 📖 [A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters/)
 > * 🛠 Test your page with the [Facebook OG testing](https://developers.facebook.com/tools/debug/)
+-->
+
+> * 📖 [A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters/)
+> * 🛠 [Facebook OG testing](https://developers.facebook.com/tools/debug/) であなたのサイトをテストしましょう。
 
 * [ ] **Twitter Card:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png)
 
@@ -318,10 +335,19 @@ Some resources possess an emoticon to help you understand which type of content 
 <meta name="twitter:image" content="https://example.com/image.jpg">
 ```
 
+<!--
 > * 📖 [Getting started with cards — Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 > * 🛠 Test your page with the [Twitter card validator](https://cards-dev.twitter.com/validator)
+-->
 
+> * 📖 [Getting started with cards — Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
+> * 🛠 [Twitter card validator](https://cards-dev.twitter.com/validator) であなたのサイトのテストをしましょう。
+
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -364,7 +390,11 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > [Pixel Perfect - Chrome Extension](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -379,7 +409,11 @@ Some resources possess an emoticon to help you understand which type of content 
 
 * [ ] **Webfont size:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Webfont sizes don't exceed 2 MB (all variants included)
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -440,7 +474,11 @@ Some resources possess an emoticon to help you understand which type of content 
 
 * [ ] **Reading direction:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All pages need to be tested for LTR and RTL languages if they need to be supported.
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -464,7 +502,11 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Alternative text:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All ``<img>`` have an alternative text which describe the image visually.
 * [ ] **Lazy loading:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Images are lazyloaded (A noscript fallback is always provided).
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -494,7 +536,11 @@ Some resources possess an emoticon to help you understand which type of content 
 
 * [ ] **ESLint:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) No errors are flagged by ESLint (based on your configuration or standards rules)
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -537,7 +583,11 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [X-Frame-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-frame-options)
 > * 📖 [RFC7034 - HTTP Header Field X-Frame-Options](https://tools.ietf.org/html/rfc7034)
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -570,7 +620,11 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 🛠 [Test your mobile speed with Google](https://testmysite.withgoogle.com)
 > * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -627,7 +681,11 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -644,7 +702,11 @@ Some resources possess an emoticon to help you understand which type of content 
 
 * [ ] **Sitemap HTML:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) An HTML sitemap is provided and is accessible via a link in the footer of your website.
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
 
 ---
 
@@ -676,4 +738,8 @@ Check out all the super awesome [contributors](https://github.com/thedaviddias/f
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+<!--
 **[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
