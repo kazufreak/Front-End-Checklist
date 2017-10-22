@@ -597,25 +597,56 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ---
 
+<!--
 ## Images
+-->
 
+## 画像
+
+<!--
 > **Notes:** For a complete understanding of image optimization, check the free ebook **[Essential Image Optimization](https://images.guide/)** from Addy Osmani.
+-->
 
+> **Notes:** 画像の最適化に関して総合的に理解するには、Addy Osmani による **[Essential Image Optimization](https://images.guide/)** をおすすめします。
+
+<!--
 ### Best practices
+-->
 
+### ベストプラクティス
+
+<!--
 * [ ] **Optimization:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage).
+-->
+
+* [ ] **Optimization:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての画像はブラウザでの表示に対して最適化されていること。WebP フォーマットは、ホームページのような重要なページでも使用することができます。
 
 > * 🛠 [Imagemin](https://github.com/imagemin/imagemin)
 > * 🛠 Use [ImageOptim](https://imageoptim.com/) to optimise your images for free.
 
+<!--
 * [ ] **Retina:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) You provide layout images x2 or 3x, support retina display.
 * [ ] **Sprite:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
 * [ ] **Width and Height:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All ``<img>`` have height and width set (Don't specify px or %).
+-->
 
+* [ ] **Retina:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) Retina ディスプレイをサポートするために2倍または3倍のイメージサイズの画像を提供している。
+* [ ] **Sprite:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 地位材画像はスプライト画像にまとめられている。（アイコンの場合は、SVGスプライトイメージに含めることができます。）
+* [ ] **Width and Height:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての ``<img>`` は、`height` と `width` が指定されている。（`px` または `%` を指定しない。）
+
+<!--
 > ***Note:*** Lots of developers assume that width and height are not compatible with responsive web design. It's absolutely not the case.
+-->
 
+> ***備考:*** 開発者の多くは、`width` と `height` がレスポンシブウェブデザインと互換性がないと想定しています。 断じてそうではありません。
+
+<!--
 * [ ] **Alternative text:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All ``<img>`` have an alternative text which describe the image visually.
 * [ ] **Lazy loading:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Images are lazyloaded (A noscript fallback is always provided).
+-->
+
+* [ ] **Alt テキスト:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての ``<img>`` は Alt テキストが代替えテキストとして指定されていること。
+* [ ] **遅延ロード:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 画像は遅延ロードされていること。（noscript による代替策が常に提供されていること。）
 
 <!--
 **[⬆ back to top](#table-of-contents)**
