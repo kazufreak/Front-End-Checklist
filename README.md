@@ -9,7 +9,7 @@ The **Front-End Checklist** is an exhaustive list of all elements you need to ha
 **フロントエンドチェックリスト**は、みなさんがウェブサイトや HTML ページを本番環境で公開する前に確認するべきあらゆる項目を網羅したリストです。
 
 <!--
-It is based on Front-End developers' years of experience, with the addition from some other open-source checklists.
+It is based on Front-End developers' years of experience, with the additions coming from some other open-source checklists.
 -->
 
 これは、フロントエンド開発者たちの数年に及ぶ経験にもとづいており、さらに他のオープンソースのチェックリストの内容も追加されています。
@@ -29,7 +29,7 @@ It is based on Front-End developers' years of experience, with the addition from
 6. **[Images](#images)**
 7. **[JavaScript](#javascript)**
 8. **[Security](#security)**
-9. **[Performance](#performance)**
+9. **[Performance](#performance-1)**
 10. **[Accessibility](#accessibility)**
 11. **[SEO](#seo)**
 -->
@@ -59,14 +59,14 @@ All items in the **Front-End Checklist** are required for the majority of the pr
 **フロントエンドチェックリスト**のすべての項目は大半のプロジェクトで必要とされていますが、いくつかの項目は省略できますし、必須でもありません。（たとえば管理用のウェブアプリケーションの場合は、RSSは必要ないでしょう。）私たちは三段階で重要度を評価しています。
 
 <!--
-* ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) means that the item is **recommended** but can be omitted in some particular situations.
-* ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) means that the item is **highly recommended** and can eventually be omitted in some really particular cases. Some elements, if omitted, can have bad repercussions in terms of performance or SEO.
-* ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) means that the item **can't be omitted** by any reason. You may cause a dysfunction in your page or have accessibility or SEO issues. The testing priority needs to be on these elements first.
+* ![Low][low_img] means that the item is **recommended** but can be omitted in some particular situations.
+* ![Medium][medium_img] means that the item is **highly recommended** and can eventually be omitted in some really particular cases. Some elements, if omitted, can have bad repercussions in terms of performance or SEO.
+* ![High][high_img] means that the item **can't be omitted** by any reason. You may cause a dysfunction in your page or have accessibility or SEO issues. The testing priority needs to be on these elements first.
 -->
 
-* ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) は、**推奨**を意味していますが、個別のシチュエーションによっては省略することも可能です。
-* ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) は、**強く推奨**を意味していますが、ごく稀なケースでは必須ではなく省略することも可能です。いくつかの項目においては省略することによってパフォーマンスやSEOで悪影響がある可能性があります。
-* ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) は、**必須**を意味しており、いかなる理由でも省略することはできません。これらを省略することで機能が不完全だったり、アクセシビリティやSEOの問題が発生することがあります。テストの優先順位はまずこれらの項目からはじめるべきです。
+* ![Low][low_image] は、**推奨**を意味していますが、個別のシチュエーションによっては省略することも可能です。
+* ![Medium][medium_image] は、**強く推奨**を意味していますが、ごく稀なケースでは必須ではなく省略することも可能です。いくつかの項目においては省略することによってパフォーマンスやSEOで悪影響がある可能性があります。
+* ![High][high_img] は、**必須**を意味しており、いかなる理由でも省略することはできません。これらを省略することで機能が不完全だったり、アクセシビリティやSEOの問題が発生することがあります。テストの優先順位はまずこれらの項目からはじめるべきです。
 
 <!--
 Some resources possess an emoticon to help you understand which type of content / help you may find on the checklist:
@@ -101,10 +101,10 @@ Some resources possess an emoticon to help you understand which type of content 
 ### Meta タグ
 
 <!--
-* [ ] **Doctype:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The Doctype is HTML5 and is at the top of all your HTML pages.
+* [ ] **Doctype:** ![High][high_img] The Doctype is HTML5 and is at the top of all your HTML pages.
 -->
 
-* [ ] **DOCTYPE宣言:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Doctype が HTML5 であり、すべての HTML ページの先頭にあること。
+* [ ] **DOCTYPE宣言:** ![High][high_img] Doctype が HTML5 であり、すべての HTML ページの先頭にあること。
 
 ```html
 <!-- Doctype HTML5 -->
@@ -120,10 +120,10 @@ Some resources possess an emoticon to help you understand which type of content 
 *次の3つの Meta タグ（Charset、X-UA、Viewport）は、`<head>`の先頭にあるべきです。*
 
 <!--
-* [ ] **Charset:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The charset declared (UTF-8) is declared correctly.
+* [ ] **Charset:** ![High][high_img] The charset declared (UTF-8) is declared correctly.
 -->
 
-* [ ] **文字コード:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) 文字コードの宣言 (UTF-8) が正しく宣言されている。
+* [ ] **文字コード:** ![High][high_img] 文字コードの宣言 (UTF-8) が正しく宣言されている。
 
 ```html
 <!-- Set character encoding for the document -->
@@ -131,10 +131,10 @@ Some resources possess an emoticon to help you understand which type of content 
 ```
 
 <!--
-* [ ] **X-UA-Compatible:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) The X-UA-Compatible meta tag is present.
+* [ ] **X-UA-Compatible:** ![Medium][medium_img] The X-UA-Compatible meta tag is present.
 -->
 
-* [ ] **X-UA-Compatible:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Meta タグ X-UA-Compatible が存在している。
+* [ ] **X-UA-Compatible:** ![Medium][medium_image] Meta タグ X-UA-Compatible が存在している。
 
 ```html
 <!-- Instruct Internet Explorer to use its latest rendering engine -->
@@ -148,10 +148,10 @@ Some resources possess an emoticon to help you understand which type of content 
 > 📖 [レガシードキュメントモードの設定 (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
 
 <!--
-* [ ] **Viewport:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The viewport is declared correctly
+* [ ] **Viewport:** ![High][high_img] The viewport is declared correctly.
 -->
 
-* [ ] **Viewport:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) viewport が正しく宣言されている。
+* [ ] **Viewport:** ![High][high_img] viewport が正しく宣言されている。
 
 ```html
 <!-- Viewport for responsive web design -->
@@ -159,10 +159,10 @@ Some resources possess an emoticon to help you understand which type of content 
 ```
 
 <!--
-* [ ] **Title:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) A title is used on all pages (SEO: No more than 65 characters, website title included)
+* [ ] **Title:** ![High][high_img] A title is used on all pages (SEO: No more than 65 characters, website title included).
 -->
 
-* [ ] **Title:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) title が全てのページで使用されている。（SEO: ウェブサイトのタイトルも含めて65文字以内であること。）
+* [ ] **Title:** ![High][high_img] title が全てのページで使用されている。（SEO: ウェブサイトのタイトルも含めて65文字以内であること。）
 
 ```html
 <!-- Document Title -->
@@ -172,10 +172,10 @@ Some resources possess an emoticon to help you understand which type of content 
 > 📖 [Title - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
 <!--
-* [ ] **Description:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) A meta description is provided, it is unique and doesn't possess more than 150 characters.
+* [ ] **Description:** ![High][high_img] A meta description is provided, it is unique and doesn't possess more than 150 characters.
 -->
 
-* [ ] **Description:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) meta description が提供されており、これはユニークでありなおかつ150文字以下である。
+* [ ] **Description:** ![High][high_img] meta description が提供されており、これはユニークでありなおかつ150文字以下である。
 
 ```html
 <!-- Meta Description -->
@@ -183,10 +183,10 @@ Some resources possess an emoticon to help you understand which type of content 
 ```
 
 <!--
-* [ ] **Favicons:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Each favicon has been created and displays correctly. If you have only a ``favicon.ico``, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over ``.ico`` format (dimensions: 32x32px)
+* [ ] **Favicons:** ![Medium][medium_img] Each favicon has been created and displays correctly. If you have only a `favicon.ico`, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over `.ico` format (dimensions: 32x32px).
 -->
 
-* [ ] **Favicons:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) それぞれの favicon が作られており正しく表示されている。もし、``favicon.ico`` しかない場合、それはあなたのサイトのルートに設置されている。通常はマークアップは必要ない。しかしながら、以下の例のようにリンクをはることがまだ有効である。昨今では、**PNG フォーマット** が  ``.ico`` フォーマットよりも推奨されている。（サイズ: 32x32px）
+* [ ] **Favicons:** ![Medium][medium_image] それぞれの favicon が作られており正しく表示されている。もし、``favicon.ico`` しかない場合、それはあなたのサイトのルートに設置されている。通常はマークアップは必要ない。しかしながら、以下の例のようにリンクをはることがまだ有効である。昨今では、**PNG フォーマット** が  ``.ico`` フォーマットよりも推奨されている。（サイズ: 32x32px）
 
 ```html
 <!-- Standard favicon -->
@@ -202,10 +202,10 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [PNG favicons - caniuse](https://caniuse.com/#feat=link-icon-png)
 
 <!--
-* [ ] **Apple Touch Icon:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) Apple touch favicon apple-mobile-web-app-capable are present. *(Create your Apple Icon file with at least 200x200px dimension to support all dimensions that you may need)*
+* [ ] **Apple Touch Icon:** ![Low][low_img] Apple touch favicon apple-mobile-web-app-capable are present. *(Create your Apple Icon file with at least 200x200px dimension to support all dimensions that you may need)*
 -->
 
-* [ ] **Apple Touch Icon:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) apple-mobile-web-app-capable がある。 *(すくなくとも 200x200pxのAppleアイコンファイルを作成すれば、必要な全ての寸法をサポートする。)*
+* [ ] **Apple Touch Icon:** ![Low][low_image] apple-mobile-web-app-capable がある。 *(すくなくとも 200x200pxのAppleアイコンファイルを作成すれば、必要な全ての寸法をサポートする。)*
 
 ```html
 <!-- Apple Touch Icon -->
@@ -215,10 +215,10 @@ Some resources possess an emoticon to help you understand which type of content 
 > 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
 <!--
-* [ ] **Canonical:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Use ``rel="canonical"`` to avoid duplicate content.
+* [ ] **Canonical:** ![Medium][medium_img] Use `rel="canonical"` to avoid duplicate content.
 -->
 
-* [ ] **Canonical:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 重複したコンテンツを避けるために ``rel="canonical"`` を使用している。
+* [ ] **Canonical:** ![Medium][medium_image] 重複したコンテンツを避けるために ``rel="canonical"`` を使用している。
 
 ```html
 <!-- Helps prevent duplicate content issues -->
@@ -228,20 +228,20 @@ Some resources possess an emoticon to help you understand which type of content 
 ### HTML タグ
 
 <!--
-* [ ] **Language tag:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The language tag of your website is specified and related to the language of the current page.
+* [ ] **Language tag:** ![High][high_img] The language tag of your website is specified and related to the language of the current page.
 -->
 
-* [ ] **言語:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) あなたのサイトの言語タグが記述されており、そのページの言語を指定している。
+* [ ] **言語:** ![High][high_img] あなたのサイトの言語タグが記述されており、そのページの言語を指定している。
 
 ```html
 <html lang="en">
 ```
 
 <!--
-* [ ] **Direction tag:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) The direction of lecture is specified on the body tag (It can be used on another HTML tag).
+* [ ] **Direction tag:** ![Medium][medium_img] The direction of lecture is specified on the body tag (It can be used on another HTML tag).
 -->
 
-* [ ] **文字方向:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 文字方向が記述されている。（これは他の HTML タグ上でも使用可能である。）
+* [ ] **文字方向:** ![Medium][medium_image] 文字方向が記述されている。（これは他の HTML タグ上でも使用可能である。）
 
 ```html
 <html dir="rtl">
@@ -250,42 +250,44 @@ Some resources possess an emoticon to help you understand which type of content 
 > 📖 [dir - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
 
 <!--
-* [ ] **Alternate language:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) The language tag of your website is specified and related to the language of the current page.
+* [ ] **Alternate language:** ![Low][low_img] The language tag of your website is specified and related to the language of the current page.
 -->
 
-* [ ] **代替言語:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) あなたのサイトの言語タグが既述されており、現在のページの言語に関連づけられている。（訳注：多言語コンテンツを想定）
+* [ ] **代替言語:** ![Low][low_image] あなたのサイトの言語タグが既述されており、現在のページの言語に関連づけられている。（訳注：多言語コンテンツを想定）
 
 ```html
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
 ```
 
 <!--
-* [ ] **Conditional comments:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) Conditional comments are present for IE if needed.
+* [ ] **Conditional comments:** ![Low][low_img] Conditional comments are present for IE if needed.
 -->
 
-* [ ] **条件分岐コメント:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) もし必要なら、IE 用の条件分岐コメントタグが設置されている。
+* [ ] **条件分岐コメント:** ![Low][low_image] もし必要なら、IE 用の条件分岐コメントタグが設置されている。
 
 > 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
 <!--
-* [ ] **RSS feed:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) If your project is a blog or has articles, an RSS link was provided.
+* [ ] **RSS feed:** ![Low][low_img] If your project is a blog or has articles, an RSS link was provided.
 -->
 
-* [ ] **RSS フィード:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) もしあなたのサイトがブログ、もしくは記事をもっているなら、RSS へのリンクが提供されている。
+* [ ] **RSS フィード:** ![Low][low_image] もしあなたのサイトがブログ、もしくは記事をもっているなら、RSS へのリンクが提供されている。
 
 <!--
-* [ ] **CSS Critical:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between ``<style></style>`` in a single line (minified).
+* [ ] **CSS Critical:** ![Medium][medium_img] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified).
 -->
 
-* [ ] **CSS クリティカル:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) クリティカル CSS (または "above the fold") が、ページの可視部分をレンダリングするために使用されるすべての CSS を収集していること。それは主な CSS を読み込む前に呼び出されており、``<style></style>`` の間に1行で記述されている。（圧縮されている）
+* [ ] **CSS クリティカル:** ![Medium][medium_image] クリティカル CSS (または "above the fold") が、ページの可視部分をレンダリングするために使用されるすべての CSS を収集していること。それは主な CSS を読み込む前に呼び出されており、``<style></style>`` の間に1行で記述されている。（圧縮されている）
 
-> 🛠 [Critical by Addy Osmany on Github](https://github.com/addyosmani/critical)
+> 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
+
+> 🛠 [Critical by Addy Osmani on Github](https://github.com/addyosmani/critical)
 
 <!--
-* [ ] **CSS order:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All CSS files are loaded before any JavaScript files in the ``<head>``. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
+* [ ] **CSS order:** ![High][high_img] All CSS files are loaded before any JavaScript files in the `<head>`. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
 -->
 
-* [ ] **CSS 読み込み順:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての CSS ファイルは ``<head>`` 内でいかなる JavaScript よりも先に読み込まれている。 (JS ファイルが時々非同期にあなたのページのトップに読み込まれる場合を除く。)
+* [ ] **CSS 読み込み順:** ![High][high_img] すべての CSS ファイルは ``<head>`` 内でいかなる JavaScript よりも先に読み込まれている。 (JS ファイルが時々非同期にあなたのページのトップに読み込まれる場合を除く。)
 
 <!--
 ### Social meta
@@ -300,10 +302,10 @@ Some resources possess an emoticon to help you understand which type of content 
 ***Facebook OG*** と ***Twitter Cards*** は、すべてのウェブサイトに強く推奨します。 その他のソーシャルメディア用のタグは、特定の対象をターゲットとする際に、より確実に表示されるようになるでしょう。
 
 <!--
-* [ ] **Facebook Open Graph:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) All Facebook Open Graph (OG) are tested and no one is missing or with a false information. Images need to be at least 600 x 315 pixels, 1200 x 630 pixels recommended.
+* [ ] **Facebook Open Graph:** ![Low][low_img] All Facebook Open Graph (OG) are tested and no one is missing or with a false information. Images need to be at least 600 x 315 pixels, 1200 x 630 pixels recommended.
 -->
 
-* [ ] **Facebook Open Graph:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) すべての Facebook Open Graph (OG) はテストされ、不足がなく不具合もない。画像サイズは少なくとも 600 x 315 ピクセル以上であり、1200 x 630 ピクセルを推奨する。
+* [ ] **Facebook Open Graph:** ![Low][low_image] すべての Facebook Open Graph (OG) はテストされ、不足がなく不具合もない。画像サイズは少なくとも 600 x 315 ピクセル以上であり、1200 x 630 ピクセルを推奨する。
 
 ```html
 <meta property="og:type" content="website">
@@ -323,7 +325,7 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters/)
 > * 🛠 [Facebook OG testing](https://developers.facebook.com/tools/debug/) であなたのサイトをテストしましょう。
 
-* [ ] **Twitter Card:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png)
+* [ ] **Twitter Card:** ![Low][low_img]
 
 ```html
 <meta name="twitter:card" content="summary">
@@ -360,32 +362,32 @@ Some resources possess an emoticon to help you understand which type of content 
 ### ベストプラクティス
 
 <!--
-* [ ] **HTML5 Semantic Elements:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) HTML5 Semantic Elements are used appropriately (header, section, footer, main...)
+* [ ] **HTML5 Semantic Elements:** ![High][high_img] HTML5 Semantic Elements are used appropriately (header, section, footer, main...)
 -->
 
-* [ ] **HTML5 セマンティック要素:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) HTML5 セマンティック要素が適切に使用されている。(header, section, footer, main...)
+* [ ] **HTML5 セマンティック要素:** ![High][high_img] HTML5 セマンティック要素が適切に使用されている。(header, section, footer, main...)
 
 > 📖 [HTML Reference](http://htmlreference.io/)
 
 <!--
-* [ ] **Error pages:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Error 404 page and 5xx exist. Remember that the 5xx error page needs to have his CSS integrated (no external call on the current server).
+* [ ] **Error pages:** ![High][high_img] Error 404 page and 5xx exist. Remember that the 5xx error page needs to have his CSS integrated (no external call on the current server).
 -->
 
-* [ ] **エラーページ:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) 404 及び 5xx 用のエラーページが存在している。5xx エラーページは CSS が内蔵されている必要があることを覚えておくこと。（サーバーに対する追加のリクエストを行わないこと。）
+* [ ] **エラーページ:** ![High][high_img] 404 及び 5xx 用のエラーページが存在している。5xx エラーページは CSS が内蔵されている必要があることを覚えておくこと。（サーバーに対する追加のリクエストを行わないこと。）
 
 <!--
-* [ ] **Noopener:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) In case you are using external links with ``target="_blank"``, your link should have a ``rel="noopener"`` attribute to prevent tab nabbing. If you need to support older versions of Firefox, use ``rel="noopener noreferrer"``.
+* [ ] **Noopener:** ![Medium][medium_image] In case you are using external links with ``target="_blank"``, your link should have a ``rel="noopener"`` attribute to prevent tab nabbing. If you need to support older versions of Firefox, use ``rel="noopener noreferrer"``.
 -->
 
-* [ ] **Noopener:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) ``target="_blank"`` で外部リンクを使用する際には、``rel="noopener"`` 属性をつけて Tabnabbing 脆弱性を防ぐこと。もしあなたが古いバージョンの Firefox をサポートする必要があるなら、``rel="noopener noreferrer"`` を使用すること。
+* [ ] **Noopener:** ![Medium][medium_image] ``target="_blank"`` で外部リンクを使用する際には、``rel="noopener"`` 属性をつけて Tabnabbing 脆弱性を防ぐこと。もしあなたが古いバージョンの Firefox をサポートする必要があるなら、``rel="noopener noreferrer"`` を使用すること。
 
 > 📖 [About rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
 
 <!--
-* [ ] **Clean up comments:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) Unnecessary code needs to be removed before sending the page to production.
+* [ ] **Clean up comments:** ![Low][low_image] Unnecessary code needs to be removed before sending the page to production.
 -->
 
-* [ ] **不必要なコード:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) 不必要なコードは、本番環境にアップロードされる前に削除されていること。
+* [ ] **不必要なコード:** ![Low][low_image] 不必要なコードは、本番環境にアップロードされる前に削除されていること。
 
 <!--
 ### HTML testing
@@ -394,48 +396,48 @@ Some resources possess an emoticon to help you understand which type of content 
 ### HTML テスティング
 
 <!--
-* [ ] **W3C compliant:**: ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All pages need to be tested with the W3C validator to identify possible issues in the HTML code.
+* [ ] **W3C compliant:**: ![High][high_img] All pages need to be tested with the W3C validator to identify possible issues in the HTML code.
 -->
 
-* [ ] **W3C 準拠:**: ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべてのページを HTML ばりデーターでテストして、問題点を抽出する。
+* [ ] **W3C 準拠:**: ![High][high_img] すべてのページを HTML ばりデーターでテストして、問題点を抽出する。
 
 > 🛠 [W3C validator](https://validator.w3.org/)
 
 <!--
-* [ ] **HTML Lint:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) I use tools to help me analyze any issues I could have on my HTML code.
+* [ ] **HTML Lint:** ![High][high_img] I use tools to help me analyze any issues I could have on my HTML code.
 -->
 
-* [ ] **HTML Lint:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) ツールを使って HTML に問題があるかどうかを分析する。
+* [ ] **HTML Lint:** ![High][high_img] ツールを使って HTML に問題があるかどうかを分析する。
 
 > 🛠 [Dirty markup](https://dirtymarkup.com/)
 
 <!--
-* [ ] **Desktop Browsers:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...).
-* [ ] **Mobile Browsers:**  ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All pages were tested on all current mobile browsers (Native browser, Chrome, Safari...).
+* [ ] **Desktop Browsers:** ![High][high_img] All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...).
+* [ ] **Mobile Browsers:**  ![High][high_img] All pages were tested on all current mobile browsers (Native browser, Chrome, Safari...).
 -->
 
-* [ ] **デスクトップブラウザ:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべてのページは、現在のすべてのデスクトップブラウザでテストされている。(Safari, Firefox, Chrome, Internet Explorer, EDGE...)
-* [ ] **モバイルブラウザ:**  ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべてのページは、現在のすべてのモバイルブラウザでテストされている。(Native browser, Chrome, Safari...)
+* [ ] **デスクトップブラウザ:** ![High][high_img] すべてのページは、現在のすべてのデスクトップブラウザでテストされている。(Safari, Firefox, Chrome, Internet Explorer, EDGE...)
+* [ ] **モバイルブラウザ:**  ![High][high_img] すべてのページは、現在のすべてのモバイルブラウザでテストされている。(Native browser, Chrome, Safari...)
 
 <!--
-* [ ] **Link checker:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) There are no broken links in my page, verify that you don't have any 404 error.
+* [ ] **Link checker:** ![High][high_img] There are no broken links in my page, verify that you don't have any 404 error.
 -->
 
-* [ ] **リンクチェッカー:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) リンク切れがなく、404 エラーが発生しないことを確認する。
+* [ ] **リンクチェッカー:** ![High][high_img] リンク切れがなく、404 エラーが発生しないことを確認する。
 
 > 🛠 [W3C Link Checker](https://validator.w3.org/checklink)
 
 <!--
-* [ ] **Adblockers test:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker)
+* [ ] **Adblockers test:** ![Medium][medium_image] Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker)
 -->
 
-* [ ] **広告ブロッカーテスト:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 広告ブロッカーが有効でもコンテンツが正しく表示されている。（ユーザーに対してそれらの広告ブロッカーを無効化するようメッセージを表示することができる。）
+* [ ] **広告ブロッカーテスト:** ![Medium][medium_image] 広告ブロッカーが有効でもコンテンツが正しく表示されている。（ユーザーに対してそれらの広告ブロッカーを無効化するようメッセージを表示することができる。）
 
 <!--
-- [ ] **Pixel perfect:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Pages are close to pixel perfect. Depending on the quality of the creatives, you may not be 100% accurate, but your page needs to be close to your template.
+- [ ] **Pixel perfect:** ![High][high_img] Pages are close to pixel perfect. Depending on the quality of the creatives, you may not be 100% accurate, but your page needs to be close to your template.
 -->
 
-- [ ] **ピクセルパーフェクト:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべてのページはピクセルパーフェクトに近い状態であること。クリエイティブの品質によっては 100% 正確ではない場合があるが、テンプレートにほぼ近い状態である必要がある。
+- [ ] **ピクセルパーフェクト:** ![High][high_img] すべてのページはピクセルパーフェクトに近い状態であること。クリエイティブの品質によっては 100% 正確ではない場合があるが、テンプレートにほぼ近い状態である必要がある。
 
 > [Pixel Perfect - Chrome Extension](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)
 
@@ -454,10 +456,10 @@ Some resources possess an emoticon to help you understand which type of content 
 ## ウェブフォント
 
 <!--
-* [ ] **Webfont format:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) WOFF, WOFF2 and TTF are supported by all modern browsers.
+* [ ] **Webfont format:** ![High][high_img] WOFF, WOFF2 and TTF are supported by all modern browsers.
 -->
 
-* [ ] **ウェブフォントのフォーマット:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) WOFF, WOFF2 及び TTF はすべてのモダンブラウザでサポートされている。
+* [ ] **ウェブフォントのフォーマット:** ![High][high_img] WOFF, WOFF2 及び TTF はすべてのモダンブラウザでサポートされている。
 
 > * 📖 [WOFF - Web Open Font Format - Caniuse](https://caniuse.com/#feat=woff).
 > * 📖 [WOFF 2.0 - Web Open Font Format - Caniuse](https://caniuse.com/#feat=woff2).
@@ -465,10 +467,10 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Using @font-face - CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
 
 <!--
-* [ ] **Webfont size:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Webfont sizes don't exceed 2 MB (all variants included)
+* [ ] **Webfont size:** ![High][high_img] Webfont sizes don't exceed 2 MB (all variants included)
 -->
 
-* [ ] **ウェブフォントのサイズ:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) ウェブフォントのサイズは、すべての綴りが含まれた状態で 2MB を超えないこと。
+* [ ] **ウェブフォントのサイズ:** ![High][high_img] ウェブフォントのサイズは、すべての綴りが含まれた状態で 2MB を超えないこと。
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -487,28 +489,28 @@ Some resources possess an emoticon to help you understand which type of content 
 > **備考:** 多くのフロントエンド開発者が従っている [CSS guidelines](https://cssguidelin.es/) と [Sass Guidelines](https://sass-guidelin.es/) を見てみましょう。 もし CSS プロパティについて疑問があるなら、[CSS Reference](http://cssreference.io/) に訪れてみましょう。
 
 <!--
-* [ ] **Responsive Web Design:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The website is using responsive web design.
-* [ ] **CSS Print:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) A print stylesheet is provided and is correct on each page.
-* [ ] **Preprocessors:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Your page is using a CSS preprocessor ([Sass](http://sass-lang.com/) is preferred).
-* [ ] **Unique ID:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) If IDs are used, they are unique to a page
-* [ ] **Reset CSS:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) A CSS reset (reset, normalize or reboot) is used and up to date. *(If you are using a CSS Framework like Bootstrap or Foundation, a Normalize is already included into it.)*
+* [ ] **Responsive Web Design:** ![High][high_img] The website is using responsive web design.
+* [ ] **CSS Print:** ![Medium][medium_image] A print stylesheet is provided and is correct on each page.
+* [ ] **Preprocessors:** ![Medium][medium_image] Your page is using a CSS preprocessor ([Sass](http://sass-lang.com/) is preferred).
+* [ ] **Unique ID:** ![High][high_img] If IDs are used, they are unique to a page
+* [ ] **Reset CSS:** ![High][high_img] A CSS reset (reset, normalize or reboot) is used and up to date. *(If you are using a CSS Framework like Bootstrap or Foundation, a Normalize is already included into it.)*
 -->
 
-* [ ] **Responsive Web Design:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) そのウェブサイトはレスポンシブデザインを採用している。
-* [ ] **CSS Print:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 印刷用のスタイルシートがそれぞれのページに対して正しく提供されている。
-* [ ] **Preprocessors:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) あなたのサイトは CSS プリプロセッサーを使用している。 ([Sass](http://sass-lang.com/) が推奨される。)
-* [ ] **Unique ID:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) もし ID が使用されているなら、そのページの中でユニークであること。
-* [ ] **Reset CSS:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) CSS のリセット (reset, normalize または reboot) が使用されており最新である。 *(もしあなたが Bootstrap や Foundation などの CSS フレームワークを使用しているなら、それらはすでに導入されている。)*
+* [ ] **Responsive Web Design:** ![High][high_img] そのウェブサイトはレスポンシブデザインを採用している。
+* [ ] **CSS Print:** ![Medium][medium_image] 印刷用のスタイルシートがそれぞれのページに対して正しく提供されている。
+* [ ] **Preprocessors:** ![Medium][medium_image] あなたのサイトは CSS プリプロセッサーを使用している。 ([Sass](http://sass-lang.com/) が推奨される。)
+* [ ] **Unique ID:** ![High][high_img] もし ID が使用されているなら、そのページの中でユニークであること。
+* [ ] **Reset CSS:** ![High][high_img] CSS のリセット (reset, normalize または reboot) が使用されており最新である。 *(もしあなたが Bootstrap や Foundation などの CSS フレームワークを使用しているなら、それらはすでに導入されている。)*
 
 > * 📖 [Reset.css](https://meyerweb.com/eric/tools/css/reset/)
 > * 📖 [Normalize.css](https://necolas.github.io/normalize.css/)
 > * 📖 [Reboot](https://getbootstrap.com/docs/4.0/content/reboot/)
 
 <!--
-* [ ] **JS prefix:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) All classes (or id- used in JavaScript files) begin with **js-** and are not styled into the CSS files.
+* [ ] **JS prefix:** ![Low][low_image] All classes (or id- used in JavaScript files) begin with **js-** and are not styled into the CSS files.
 -->
 
-* [ ] **JS prefix:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) すべての class (または JavaScript で使用されいる ID) は、**js-** で始まっており、それらは CSS で使用されていない。
+* [ ] **JS prefix:** ![Low][low_image] すべての class (または JavaScript で使用されいる ID) は、**js-** で始まっており、それらは CSS で使用されていない。
 
 ```html
 <div id="js-slider" class="my-slider">
@@ -517,12 +519,12 @@ Some resources possess an emoticon to help you understand which type of content 
 ```
 
 <!--
-* [ ] **CSS embed or line:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Avoid at all cost the use of CSS embed or inline: only used for valid reasons (ex: background-image for slider, CSS critical).
-* [ ] **Vendor prefixes:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) CSS vendor prefixes are used and are generated accordingly with your browser support compatibility.
+* [ ] **CSS embed or line:** ![High][high_img] Avoid at all cost the use of CSS embed or inline: only used for valid reasons (ex: background-image for slider, CSS critical).
+* [ ] **Vendor prefixes:** ![High][high_img] CSS vendor prefixes are used and are generated accordingly with your browser support compatibility.
 -->
 
-* [ ] **内部 CSS 及びインラインスタイル:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) 内部 CSS やインラインスタイルを使用することを避け、正当な理由でのみ使用する。（例： スライダー用の背景画像や CSS クリティカルなど）
-* [ ] **ベンダープレフィックス:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) CSS ベンダープレフィックスが、ブラウザの互換性に基づいて生成され、使用されている。
+* [ ] **内部 CSS 及びインラインスタイル:** ![High][high_img] 内部 CSS やインラインスタイルを使用することを避け、正当な理由でのみ使用する。（例： スライダー用の背景画像や CSS クリティカルなど）
+* [ ] **ベンダープレフィックス:** ![High][high_img] CSS ベンダープレフィックスが、ブラウザの互換性に基づいて生成され、使用されている。
 
 > 🛠 [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
@@ -533,26 +535,27 @@ Some resources possess an emoticon to help you understand which type of content 
 ### パフォーマンス
 
 <!--
-- [ ] **Concatenation:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) CSS files are concatenated in a single file *(Not for HTTP/2)*
-- [ ] **Minification:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All CSS files are minified.
-- [ ] **Non-blocking:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) CSS files need to be non-blocking to prevent the DOM from taking time to load.
+- [ ] **Concatenation:** ![High][high_img] CSS files are concatenated in a single file *(Not for HTTP/2)*
+- [ ] **Minification:** ![High][high_img] All CSS files are minified.
+- [ ] **Non-blocking:** ![Medium][medium_image] CSS files need to be non-blocking to prevent the DOM from taking time to load.
 -->
 
-- [ ] **ファイルの結合:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) CSS ファイルが結合されている。 *(HTTP/2 では不要)*
-- [ ] **ミニファイ:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての CSS ファイルはミニファイされている。
-- [ ] **ノンブロッキング:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) CSS ファイルは DOM の読み込みに時間がかからないようにノンブロッキングである。
+- [ ] **ファイルの結合:** ![High][high_img] CSS ファイルが結合されている。 *(HTTP/2 では不要)*
+- [ ] **ミニファイ:** ![High][high_img] すべての CSS ファイルはミニファイされている。
+- [ ] **ノンブロッキング:** ![Medium][medium_image] CSS ファイルは DOM の読み込みに時間がかからないようにノンブロッキングである。
 
 > * 📖 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
 > * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
 
 <!--
-- [ ] **Unused CSS:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) Remove unused CSS
+- [ ] **Unused CSS:** ![Low][low_image] Remove unused CSS
 -->
 
-- [ ] **Unused CSS:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) 使用していない CSS は削除されていること。
+- [ ] **Unused CSS:** ![Low][low_image] 使用していない CSS は削除されていること。
 
 > * 🛠 [UnCSS Online](https://uncss-online.com/) 🛠
 > * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
+> * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
 <!--
 ### CSS testing
@@ -561,33 +564,33 @@ Some resources possess an emoticon to help you understand which type of content 
 ### CSS のテスト
 
 <!--
-* [ ] **Stylelint:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All CSS or SCSS files are without any errors.
+* [ ] **Stylelint:** ![High][high_img] All CSS or SCSS files are without any errors.
 -->
 
-* [ ] **文法:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての CSS 及び SCSS にはエラーがないこと。
+* [ ] **文法:** ![High][high_img] すべての CSS 及び SCSS にはエラーがないこと。
 
 > * 🛠 [stylelint, a CSS linter](https://stylelint.io/)
 > * 📖 [Sass guidelines](https://sass-guidelin.es/)
 
 <!--
-* [ ] **Responsive web design:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All pages were tested at the following breakpoints: 320px, 768px, 1024px (can be more / different according to your analytics).
+* [ ] **Responsive web design:** ![High][high_img] All pages were tested at the following breakpoints: 320px, 768px, 1024px (can be more / different according to your analytics).
 -->
 
-* [ ] **レスポンシブデザイン:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべてのページは、320px, 768px, 1024px のブレイクポイントでテストされていること。（可能であれば、アナリティクスの結果に基づいて他のブレイクポイントでもテストする。）
+* [ ] **レスポンシブデザイン:** ![High][high_img] すべてのページは、320px, 768px, 1024px のブレイクポイントでテストされていること。（可能であれば、アナリティクスの結果に基づいて他のブレイクポイントでもテストする。）
 
 <!--
-* [ ] **CSS Validator:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) The CSS was tested and pertinent errors were corrected.
+* [ ] **CSS Validator:** ![Medium][medium_image] The CSS was tested and pertinent errors were corrected.
 -->
 
-* [ ] **CSS バリデーター:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) CSS がテストされ、関連するエラーが修正されていること。
+* [ ] **CSS バリデーター:** ![Medium][medium_image] CSS がテストされ、関連するエラーが修正されていること。
 
 > 🛠 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 <!--
-* [ ] **Reading direction:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All pages need to be tested for LTR and RTL languages if they need to be supported.
+* [ ] **Reading direction:** ![High][high_img] All pages need to be tested for LTR and RTL languages if they need to be supported.
 -->
 
-* [ ] **書字方向:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべてのページは、必要に応じて LTR 及び RTL でテストされていること。
+* [ ] **書字方向:** ![High][high_img] すべてのページは、必要に応じて LTR 及び RTL でテストされていること。
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -616,23 +619,23 @@ Some resources possess an emoticon to help you understand which type of content 
 ### ベストプラクティス
 
 <!--
-* [ ] **Optimization:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage).
+* [ ] **Optimization:** ![High][high_img] All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage).
 -->
 
-* [ ] **Optimization:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての画像はブラウザでの表示に対して最適化されていること。WebP フォーマットは、ホームページのような重要なページでも使用することができます。
+* [ ] **Optimization:** ![High][high_img] すべての画像はブラウザでの表示に対して最適化されていること。WebP フォーマットは、ホームページのような重要なページでも使用することができます。
 
 > * 🛠 [Imagemin](https://github.com/imagemin/imagemin)
 > * 🛠 Use [ImageOptim](https://imageoptim.com/) to optimise your images for free.
 
 <!--
-* [ ] **Retina:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) You provide layout images x2 or 3x, support retina display.
-* [ ] **Sprite:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
-* [ ] **Width and Height:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All ``<img>`` have height and width set (Don't specify px or %).
+* [ ] **Retina:** ![Low][low_image] You provide layout images x2 or 3x, support retina display.
+* [ ] **Sprite:** ![Medium][medium_image] Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
+* [ ] **Width and Height:** ![High][high_img] All ``<img>`` have height and width set (Don't specify px or %).
 -->
 
-* [ ] **Retina:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) Retina ディスプレイをサポートするために2倍または3倍のイメージサイズの画像を提供している。
-* [ ] **Sprite:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 地位材画像はスプライト画像にまとめられている。（アイコンの場合は、SVGスプライトイメージに含めることができます。）
-* [ ] **Width and Height:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての ``<img>`` は、`height` と `width` が指定されている。（`px` または `%` を指定しない。）
+* [ ] **Retina:** ![Low][low_image] Retina ディスプレイをサポートするために2倍または3倍のイメージサイズの画像を提供している。
+* [ ] **Sprite:** ![Medium][medium_image] 地位材画像はスプライト画像にまとめられている。（アイコンの場合は、SVGスプライトイメージに含めることができます。）
+* [ ] **Width and Height:** ![High][high_img] すべての ``<img>`` は、`height` と `width` が指定されている。（`px` または `%` を指定しない。）
 
 <!--
 > ***Note:*** Lots of developers assume that width and height are not compatible with responsive web design. It's absolutely not the case.
@@ -641,12 +644,12 @@ Some resources possess an emoticon to help you understand which type of content 
 > ***備考:*** 開発者の多くは、`width` と `height` がレスポンシブウェブデザインと互換性がないと想定しています。 断じてそうではありません。
 
 <!--
-* [ ] **Alternative text:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All ``<img>`` have an alternative text which describe the image visually.
-* [ ] **Lazy loading:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Images are lazyloaded (A noscript fallback is always provided).
+* [ ] **Alternative text:** ![High][high_img] All ``<img>`` have an alternative text which describe the image visually.
+* [ ] **Lazy loading:** ![Medium][medium_image] Images are lazyloaded (A noscript fallback is always provided).
 -->
 
-* [ ] **Alt テキスト:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) すべての ``<img>`` は Alt テキストが代替えテキストとして指定されていること。
-* [ ] **遅延ロード:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) 画像は遅延ロードされていること。（noscript による代替策が常に提供されていること。）
+* [ ] **Alt テキスト:** ![High][high_img] すべての ``<img>`` は Alt テキストが代替えテキストとして指定されていること。
+* [ ] **遅延ロード:** ![Medium][medium_image] 画像は遅延ロードされていること。（noscript による代替策が常に提供されていること。）
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -660,9 +663,9 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ### Best practices
 
-* [ ] **JavaScript Inline:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) You don't have any JavaScript code inline (mixed with your HTML code).
-* [ ] **Concatenation:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) JavaScript files are concatenated.
-* [ ] **Minification:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) JavaScript files are minified (you can add the ``.min`` suffix).
+* [ ] **JavaScript Inline:** ![High][high_img] You don't have any JavaScript code inline (mixed with your HTML code).
+* [ ] **Concatenation:** ![High][high_img] JavaScript files are concatenated.
+* [ ] **Minification:** ![High][high_img] JavaScript files are minified (you can add the `.min` suffix).
 
 > [Minify Resources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
 
@@ -670,17 +673,19 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > [Guidelines for Developing Secure Applications Utilizing JavaScript](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript)*
 
-* [ ] **Non-blocking:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) JavaScript files are loaded asynchronously using ``async`` or deferred using ``defer`` attribute.
+* [ ] **Non-blocking:** ![Medium][medium_img] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
 
 > 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
-* [ ] **Modernizr:** ![Low](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png) If you need to target some specific features you can use a custom Modernizr to add classes in your ``<html>`` tag.
+* [ ] **Modernizr:** ![Low][low_img] If you need to target some specific features you can use a custom Modernizr to add classes in your `<html>` tag.
 
 > 🛠 [Customize your Modernizr](https://modernizr.com/download?setclasses)
 
 ### JavaScript testing
 
-* [ ] **ESLint:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) No errors are flagged by ESLint (based on your configuration or standards rules)
+* [ ] **ESLint:** ![High][high_img] No errors are flagged by ESLint (based on your configuration or standards rules).
+
+> * 📖 [ESLint - The pluggable linting utility for JavaScript and JSX](https://eslint.org/)
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -695,36 +700,37 @@ Some resources possess an emoticon to help you understand which type of content 
 ### Scan and check your web site
 
 > * [securityheaders.io](https://securityheaders.io/)
+> * [Observatory by Mozilla](https://observatory.mozilla.org/)
 > * [ASafaWeb - Automated Security Analyser for ASP.NET Websites](https://asafaweb.com/)
 
 ### Best practices
 
-* [ ] **HTTPS:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) HTTPS is used on every pages and for all external content (plugins, images...).
+* [ ] **HTTPS:** ![Medium][medium_img] HTTPS is used on every pages and for all external content (plugins, images...).
 
 > * 🛠 [Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/)
 > * 🛠 [Free SSL Server Test](https://www.ssllabs.com/ssltest/index.html)
 > * 📖 [Strict Transport Security](http://caniuse.com/#feat=stricttransportsecurity)
 
-* [ ] **HTTP Strict Transport Security (HSTS):** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) The HTTP header is set to 'Strict-Transport-Security'.
+* [ ] **HTTP Strict Transport Security (HSTS):** ![Medium][medium_img] The HTTP header is set to 'Strict-Transport-Security'.
 
 > * 🛠 [Check HSTS preload status and eligibility](https://hstspreload.org/)
 > * 📖 [HTTP Strict Transport Security Cheat Sheet - OWASP](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
 > * 📖 [Transport Layer Protection Cheat Sheet - OWASP](https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet)
 
-* [ ] **Cross Site Request Forgery (CSRF):** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Your are ensure that requests made to your server-side are legitimate and originate from your website / app to prevent CSRF attacks.
+* [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] You are ensure that requests made to your server-side are legitimate and originate from your website / app to prevent CSRF attacks.
 
 > 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
 
-* [ ] **Cross Site Scripting (XSS):** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Your page or website is free from XSS possible issues.
+* [ ] **Cross Site Scripting (XSS):** ![High][high_img] Your page or website is free from XSS possible issues.
 
 > * 📖 [XSS (Cross Site Scripting) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
 > * 📖 [DOM based XSS Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet)
 
-* [ ] **Content Type Options** ![Medium] Prevents Google Chrome and Internet Explorer from trying to mime-sniff the content-type of a response away from the one being declared by the server.
+* [ ] **Content Type Options** ![Medium][medium_img] Prevents Google Chrome and Internet Explorer from trying to mime-sniff the content-type of a response away from the one being declared by the server.
 
 > * 📖 [X-Content-Type-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-content-type-options)
 
-* [ ] **X-Frame-Options (XFO)** ![Medium] Protects your visitors against clickjacking attacks.
+* [ ] **X-Frame-Options (XFO)** ![Medium][medium_img] Protects your visitors against clickjacking attacks.
 
 > * 📖 [X-Frame-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-frame-options)
 > * 📖 [RFC7034 - HTTP Header Field X-Frame-Options](https://tools.ietf.org/html/rfc7034)
@@ -741,26 +747,25 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ### Best practices
 
-- [ ] **Weight page:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The weight of each page is between 0kb and 500kb
+- [ ] **Weight page:** ![High][high_img] The weight of each page is between 0 and 500 KB.
 
 > * 🛠 [Website Page Analysis](https://tools.pingdom.com)
 > * 📖 [Size Limit: Make the Web lighter](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-- [ ] **Minified:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Your HTML is minified
+- [ ] **Minified:** ![Medium][medium_img] Your HTML is minified.
 > 🛠 [W3C Validator](https://validator.w3.org/)
 
-* [ ] **Lazy loading:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections).
+* [ ] **Lazy loading:** ![Medium][medium_img] Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections).
 
-* [ ] **Cookie size:** If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domaine name don't have more than 20 cookies.
+* [ ] **Cookie size:** If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name don't have more than 20 cookies.
 
-> * 📖 [Cookie specification: RFC 6265
-](https://tools.ietf.org/html/rfc6265)
+> * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
 > * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 > * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
 
 ### Performance testing
 
-* [ ] **Google PageSpeed:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All your pages were tested (not only the homepage) and have min 90/100.
+* [ ] **Google PageSpeed:** ![High][high_img] All your pages were tested (not only the homepage) and have a score of at least 90/100.
 
 > * 🛠 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
 > * 🛠 [Test your mobile speed with Google](https://testmysite.withgoogle.com)
@@ -780,50 +785,50 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ### Best practices
 
-- [ ] **Progressive enhancement:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Major functionality like main navigation and search should work without JavaScript enabled.
+- [ ] **Progressive enhancement:** ![Medium][medium_img] Major functionality like main navigation and search should work without JavaScript enabled.
 
 > 📖 [Enable / Disable JavaScript in Chrome Developer Tools](https://www.youtube.com/watch?v=kBmvq2cE0D8)
 
-- [ ] **Color contrast:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Color contrast should at least pass WCAG AA (AAA for mobile)
+- [ ] **Color contrast:** ![Medium][medium_img] Color contrast should at least pass WCAG AA (AAA for mobile).
 
 > 🛠 [Contrast ratio](https://leaverou.github.io/contrast-ratio/)
 
 #### Headings
 
-* [ ] **H1:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) All pages have an H1 which is not the title of the website.
-* [ ] **Headings:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Headings should be used properly in the right order (H1 to H6)
+* [ ] **H1:** ![High][high_img] All pages have an H1 which is not the title of the website.
+* [ ] **Headings:** ![High][high_img] Headings should be used properly in the right order (H1 to H6).
 
 > 📹 [Why headings and landmarks are so important -- A11ycasts #18](https://www.youtube.com/watch?v=vAAzdi1xuUY&index=9&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
 #### Landmarks
 
-- [ ] **Role banner:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) ``<header>`` has ``role="banner"``
-- [ ] **Role navigation:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) ``<nav>`` has ``role="navigation"``
-- [ ] **Role main:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) ``<main>`` has ``role="main"``
+- [ ] **Role banner:** ![High][high_img] `<header>` has `role="banner"`.
+- [ ] **Role navigation:** ![High][high_img] `<nav>` has `role="navigation"`.
+- [ ] **Role main:** ![High][high_img] `<main>` has `role="main"`.
 
 > 📖 [Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/GL/wiki/Using_ARIA_landmarks_to_identify_regions_of_a_page)
 
 ### Semantics
 
-- [ ] **Specific HTML5 input types are used:** This is especially important for mobile devices that show customized keypads and widgets for different types.
+- [ ] **Specific HTML5 input types are used:** ![Medium][medium_img] This is especially important for mobile devices that show customized keypads and widgets for different types.
 
 > 📖 [Mobile Input Types](http://mobileinputtypes.com/)
 
 ### Form
 
-* [ ] **Label:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) A label is associated with each input form element. In case a label can't be displayed, use ``aria-label`` instead.
+* [ ] **Label:** ![High][high_img] A label is associated with each input form element. In case a label can't be displayed, use `aria-label` instead.
 
 > 📖 [Using the aria-label attribute - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
 
 ### Accessibility testing
 
-* [ ] **Accessibility standards testing:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Use the WAVE tool to test if your page respects the accessibility standards.
+* [ ] **Accessibility standards testing:** ![High][high_img] Use the WAVE tool to test if your page respects the accessibility standards.
 
 > 🛠 [Wave testing](http://wave.webaim.org/)
 
-* [ ] **Keyboard navigation:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Test your website using only your keyboard in a previsible order. All interactive elements are reachable and usable.
-* [ ] **Screen-reader:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) All pages were tested in a screen-reader (VoiceOver, ChromeVox, NVDA or Lynx).
-* [ ] **Focus style:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) If the focus is disabled, it is replaced by visible state in CSS.
+* [ ] **Keyboard navigation:** ![High][high_img] Test your website using only your keyboard in a previsible order. All interactive elements are reachable and usable.
+* [ ] **Screen-reader:** ![Medium][medium_img] All pages were tested in a screen-reader (VoiceOver, ChromeVox, NVDA or Lynx).
+* [ ] **Focus style:** ![High][high_img] If the focus is disabled, it is replaced by visible state in CSS.
 
 > 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
@@ -837,16 +842,23 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ## SEO
 
-* [ ] **Google Analytics:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Google Analytics is installed and correctly configured.
-* [ ] **Headings logic:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) Heading text helps to understand the content in the current page.
-* [ ] **sitemap.xml:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) A sitemap.xml exists and was submitted to Google Search Console (ex: Google Webmaster Tools)
-* [ ] **robots.txt:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) The robots.txt is not blocking webpages
-* [ ] **Structured Data:** ![High](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png) Pages using structured data are tested and are without errors. Structured data helps crawlers understand the content in the current page.
+* [ ] **Google Analytics:** ![High][high_img] Google Analytics is installed and correctly configured.
+* [ ] **Headings logic:** ![Medium][medium_img] Heading text helps to understand the content in the current page.
+* [ ] **sitemap.xml:** ![High][high_img] A sitemap.xml exists and was submitted to Google Search Console (previously Google Webmaster Tools).
+* [ ] **robots.txt:** ![High][high_img] The robots.txt is not blocking webpages.
+
+> * 🛠 Test your robots.txt with [Google Robots Testing Tool](https://www.google.com/webmasters/tools/robots-testing-tool)
+
+* [ ] **Structured Data:** ![High][high_img] Pages using structured data are tested and are without errors. Structured data helps crawlers understand the content in the current page.
 
 > * 📖 [Introduction to Structured Data | Search | Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
 > * 🛠 Test your page with the [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
 
-* [ ] **Sitemap HTML:** ![Medium](http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png) An HTML sitemap is provided and is accessible via a link in the footer of your website.
+* [ ] **Sitemap HTML:** ![Medium][medium_img] An HTML sitemap is provided and is accessible via a link in the footer of your website.
+
+> * 📖 [Sitemap guidelines | Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
+> * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
+
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -889,3 +901,8 @@ Check out all the super awesome [contributors](https://github.com/thedaviddias/f
 -->
 
 **[⬆ トップに戻る](#目次)**
+
+[low_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png
+[medium_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png
+[high_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png
+
