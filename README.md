@@ -721,42 +721,78 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ---
 
+<!--
 ## Security
+-->
 
+## セキュリティ
+
+<!--
 ### Scan and check your web site
+-->
+
+### ウェブサイトをスキャンして確認する
 
 > * [securityheaders.io](https://securityheaders.io/)
 > * [Observatory by Mozilla](https://observatory.mozilla.org/)
 > * [ASafaWeb - Automated Security Analyser for ASP.NET Websites](https://asafaweb.com/)
 
+<!--
 ### Best practices
+-->
 
+### ベストプラクティス
+
+<!--
 * [ ] **HTTPS:** ![Medium][medium_img] HTTPS is used on every pages and for all external content (plugins, images...).
+-->
+
+* [ ] **HTTPS:** ![Medium][medium_img] すべてのページ及び外部コンテンツで HTTPS が使用されている。（プラグイン、画像 ...）
 
 > * 🛠 [Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/)
 > * 🛠 [Free SSL Server Test](https://www.ssllabs.com/ssltest/index.html)
 > * 📖 [Strict Transport Security](http://caniuse.com/#feat=stricttransportsecurity)
 
+<!--
 * [ ] **HTTP Strict Transport Security (HSTS):** ![Medium][medium_img] The HTTP header is set to 'Strict-Transport-Security'.
+-->
+
+* [ ] **HTTP Strict Transport Security (HSTS):** ![Medium][medium_img] HTTP ヘッダーには 'Strict-Transport-Security' が設定されている。
 
 > * 🛠 [Check HSTS preload status and eligibility](https://hstspreload.org/)
 > * 📖 [HTTP Strict Transport Security Cheat Sheet - OWASP](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
 > * 📖 [Transport Layer Protection Cheat Sheet - OWASP](https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet)
 
+<!--
 * [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] You are ensure that requests made to your server-side are legitimate and originate from your website / app to prevent CSRF attacks.
+-->
+
+* [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] CSRF 攻撃を防ぐために、あなたのサーバーへのリクエストにたいしては、それがあなたのウェブサイト/アプリから送信されていることを確認している。
 
 > 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
 
+<!--
 * [ ] **Cross Site Scripting (XSS):** ![High][high_img] Your page or website is free from XSS possible issues.
+-->
+
+* [ ] **Cross Site Scripting (XSS):** ![High][high_img] あなたのサイトには、XSS が可能な脆弱性が存在していない。
 
 > * 📖 [XSS (Cross Site Scripting) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
 > * 📖 [DOM based XSS Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet)
 
+<!--
 * [ ] **Content Type Options** ![Medium][medium_img] Prevents Google Chrome and Internet Explorer from trying to mime-sniff the content-type of a response away from the one being declared by the server.
+-->
+
+* [ ] **Content Type Options** ![Medium][medium_img] サーバーからのレスポンスヘッダーによって、Google Chrome と Internet Explorer による、mime-sniff による Content-Type に一致しない動作を防止する。
 
 > * 📖 [X-Content-Type-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-content-type-options)
 
+<!--
 * [ ] **X-Frame-Options (XFO)** ![Medium][medium_img] Protects your visitors against clickjacking attacks.
+-->
+
+* [ ] **X-Frame-Options (XFO)** ![Medium][medium_img] 来訪者をクリックジャッキング攻撃から保護する。
 
 > * 📖 [X-Frame-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-frame-options)
 > * 📖 [RFC7034 - HTTP Header Field X-Frame-Options](https://tools.ietf.org/html/rfc7034)
