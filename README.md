@@ -661,29 +661,55 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ## JavaScript
 
+<!--
 ### Best practices
+-->
 
+### ベストプラクティス
+
+<!--
 * [ ] **JavaScript Inline:** ![High][high_img] You don't have any JavaScript code inline (mixed with your HTML code).
 * [ ] **Concatenation:** ![High][high_img] JavaScript files are concatenated.
 * [ ] **Minification:** ![High][high_img] JavaScript files are minified (you can add the `.min` suffix).
+-->
+
+* [ ] **インライン JavaScript:** ![High][high_img] インライン JavaScript がないこと。（HTML と混ざっているもの）
+* [ ] **ファイルの結合:** ![High][high_img] JavaScript ファイルは一つのファイルに結合されていること。
+* [ ] **ミニファイ:** ![High][high_img] JavaScript ファイルはミニファイされていること。（`.min.js` という拡張子を使用できる。）
 
 > [Minify Resources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
 
-* [ ] **JavaScript security:**
+* [ ] **JavaScript セキュリティ:**
 
 > [Guidelines for Developing Secure Applications Utilizing JavaScript](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript)*
 
+<!--
 * [ ] **Non-blocking:** ![Medium][medium_img] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+-->
+
+* [ ] **ノンブロッキング:** ![Medium][medium_img] JavaScript ファイルは、`async` 属性を使用して非同期で読み込まれるか、`defer` 属性を使用して遅延実行されている。
 
 > 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
+<!--
 * [ ] **Modernizr:** ![Low][low_img] If you need to target some specific features you can use a custom Modernizr to add classes in your `<html>` tag.
+-->
+
+* [ ] **Modernizr:** ![Low][low_img] もし、ある特定の機能を使用する際には、Modernizr を使用して、`<html>` の class を追加することができる。
 
 > 🛠 [Customize your Modernizr](https://modernizr.com/download?setclasses)
 
+<!--
 ### JavaScript testing
+-->
 
+### JavaScript テスティング
+
+<!--
 * [ ] **ESLint:** ![High][high_img] No errors are flagged by ESLint (based on your configuration or standards rules).
+-->
+
+* [ ] **ESLint:** ![High][high_img] ESLint にてエラーが発生しないこと。（あなたの設定またはスタンダードなルルーを基準とする。）
 
 > * 📖 [ESLint - The pluggable linting utility for JavaScript and JSX](https://eslint.org/)
 
