@@ -64,8 +64,8 @@ All items in the **Front-End Checklist** are required for the majority of the pr
 * ![High][high_img] means that the item **can't be omitted** by any reason. You may cause a dysfunction in your page or have accessibility or SEO issues. The testing priority needs to be on these elements first.
 -->
 
-* ![Low][low_image] は、**推奨**を意味していますが、個別のシチュエーションによっては省略することも可能です。
-* ![Medium][medium_image] は、**強く推奨**を意味していますが、ごく稀なケースでは必須ではなく省略することも可能です。いくつかの項目においては省略することによってパフォーマンスやSEOで悪影響がある可能性があります。
+* ![Low][low_img] は、**推奨**を意味していますが、個別のシチュエーションによっては省略することも可能です。
+* ![Medium][medium_img] は、**強く推奨**を意味していますが、ごく稀なケースでは必須ではなく省略することも可能です。いくつかの項目においては省略することによってパフォーマンスやSEOで悪影響がある可能性があります。
 * ![High][high_img] は、**必須**を意味しており、いかなる理由でも省略することはできません。これらを省略することで機能が不完全だったり、アクセシビリティやSEOの問題が発生することがあります。テストの優先順位はまずこれらの項目からはじめるべきです。
 
 <!--
@@ -134,7 +134,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **X-UA-Compatible:** ![Medium][medium_img] The X-UA-Compatible meta tag is present.
 -->
 
-* [ ] **X-UA-Compatible:** ![Medium][medium_image] Meta タグ X-UA-Compatible が存在している。
+* [ ] **X-UA-Compatible:** ![Medium][medium_img] Meta タグ X-UA-Compatible が存在している。
 
 ```html
 <!-- Instruct Internet Explorer to use its latest rendering engine -->
@@ -186,7 +186,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Favicons:** ![Medium][medium_img] Each favicon has been created and displays correctly. If you have only a `favicon.ico`, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over `.ico` format (dimensions: 32x32px).
 -->
 
-* [ ] **Favicons:** ![Medium][medium_image] それぞれの favicon が作られており正しく表示されている。もし、``favicon.ico`` しかない場合、それはあなたのサイトのルートに設置されている。通常はマークアップは必要ない。しかしながら、以下の例のようにリンクをはることがまだ有効である。昨今では、**PNG フォーマット** が  ``.ico`` フォーマットよりも推奨されている。（サイズ: 32x32px）
+* [ ] **Favicons:** ![Medium][medium_img] それぞれの favicon が作られており正しく表示されている。もし、``favicon.ico`` しかない場合、それはあなたのサイトのルートに設置されている。通常はマークアップは必要ない。しかしながら、以下の例のようにリンクをはることがまだ有効である。昨今では、**PNG フォーマット** が  ``.ico`` フォーマットよりも推奨されている。（サイズ: 32x32px）
 
 ```html
 <!-- Standard favicon -->
@@ -205,7 +205,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Apple Touch Icon:** ![Low][low_img] Apple touch favicon apple-mobile-web-app-capable are present. *(Create your Apple Icon file with at least 200x200px dimension to support all dimensions that you may need)*
 -->
 
-* [ ] **Apple Touch Icon:** ![Low][low_image] apple-mobile-web-app-capable がある。 *(すくなくとも 200x200pxのAppleアイコンファイルを作成すれば、必要な全ての寸法をサポートする。)*
+* [ ] **Apple Touch Icon:** ![Low][low_img] apple-mobile-web-app-capable がある。 *(すくなくとも 200x200pxのAppleアイコンファイルを作成すれば、必要な全ての寸法をサポートする。)*
 
 ```html
 <!-- Apple Touch Icon -->
@@ -218,7 +218,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Canonical:** ![Medium][medium_img] Use `rel="canonical"` to avoid duplicate content.
 -->
 
-* [ ] **Canonical:** ![Medium][medium_image] 重複したコンテンツを避けるために ``rel="canonical"`` を使用している。
+* [ ] **Canonical:** ![Medium][medium_img] 重複したコンテンツを避けるために ``rel="canonical"`` を使用している。
 
 ```html
 <!-- Helps prevent duplicate content issues -->
@@ -241,7 +241,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Direction tag:** ![Medium][medium_img] The direction of lecture is specified on the body tag (It can be used on another HTML tag).
 -->
 
-* [ ] **文字方向:** ![Medium][medium_image] 文字方向が記述されている。（これは他の HTML タグ上でも使用可能である。）
+* [ ] **文字方向:** ![Medium][medium_img] 文字方向が記述されている。（これは他の HTML タグ上でも使用可能である。）
 
 ```html
 <html dir="rtl">
@@ -253,7 +253,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Alternate language:** ![Low][low_img] The language tag of your website is specified and related to the language of the current page.
 -->
 
-* [ ] **代替言語:** ![Low][low_image] あなたのサイトの言語タグが既述されており、現在のページの言語に関連づけられている。（訳注：多言語コンテンツを想定）
+* [ ] **代替言語:** ![Low][low_img] あなたのサイトの言語タグが既述されており、現在のページの言語に関連づけられている。（訳注：多言語コンテンツを想定）
 
 ```html
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
@@ -263,7 +263,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Conditional comments:** ![Low][low_img] Conditional comments are present for IE if needed.
 -->
 
-* [ ] **条件分岐コメント:** ![Low][low_image] もし必要なら、IE 用の条件分岐コメントタグが設置されている。
+* [ ] **条件分岐コメント:** ![Low][low_img] もし必要なら、IE 用の条件分岐コメントタグが設置されている。
 
 > 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
@@ -271,13 +271,13 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **RSS feed:** ![Low][low_img] If your project is a blog or has articles, an RSS link was provided.
 -->
 
-* [ ] **RSS フィード:** ![Low][low_image] もしあなたのサイトがブログ、もしくは記事をもっているなら、RSS へのリンクが提供されている。
+* [ ] **RSS フィード:** ![Low][low_img] もしあなたのサイトがブログ、もしくは記事をもっているなら、RSS へのリンクが提供されている。
 
 <!--
 * [ ] **CSS Critical:** ![Medium][medium_img] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified).
 -->
 
-* [ ] **CSS クリティカル:** ![Medium][medium_image] クリティカル CSS (または "above the fold") が、ページの可視部分をレンダリングするために使用されるすべての CSS を収集していること。それは主な CSS を読み込む前に呼び出されており、``<style></style>`` の間に1行で記述されている。（圧縮されている）
+* [ ] **CSS クリティカル:** ![Medium][medium_img] クリティカル CSS (または "above the fold") が、ページの可視部分をレンダリングするために使用されるすべての CSS を収集していること。それは主な CSS を読み込む前に呼び出されており、``<style></style>`` の間に1行で記述されている。（圧縮されている）
 
 > 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
@@ -305,7 +305,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Facebook Open Graph:** ![Low][low_img] All Facebook Open Graph (OG) are tested and no one is missing or with a false information. Images need to be at least 600 x 315 pixels, 1200 x 630 pixels recommended.
 -->
 
-* [ ] **Facebook Open Graph:** ![Low][low_image] すべての Facebook Open Graph (OG) はテストされ、不足がなく不具合もない。画像サイズは少なくとも 600 x 315 ピクセル以上であり、1200 x 630 ピクセルを推奨する。
+* [ ] **Facebook Open Graph:** ![Low][low_img] すべての Facebook Open Graph (OG) はテストされ、不足がなく不具合もない。画像サイズは少なくとも 600 x 315 ピクセル以上であり、1200 x 630 ピクセルを推奨する。
 
 ```html
 <meta property="og:type" content="website">
@@ -376,18 +376,18 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **エラーページ:** ![High][high_img] 404 及び 5xx 用のエラーページが存在している。5xx エラーページは CSS が内蔵されている必要があることを覚えておくこと。（サーバーに対する追加のリクエストを行わないこと。）
 
 <!--
-* [ ] **Noopener:** ![Medium][medium_image] In case you are using external links with ``target="_blank"``, your link should have a ``rel="noopener"`` attribute to prevent tab nabbing. If you need to support older versions of Firefox, use ``rel="noopener noreferrer"``.
+* [ ] **Noopener:** ![Medium][medium_img] In case you are using external links with ``target="_blank"``, your link should have a ``rel="noopener"`` attribute to prevent tab nabbing. If you need to support older versions of Firefox, use ``rel="noopener noreferrer"``.
 -->
 
-* [ ] **Noopener:** ![Medium][medium_image] ``target="_blank"`` で外部リンクを使用する際には、``rel="noopener"`` 属性をつけて Tabnabbing 脆弱性を防ぐこと。もしあなたが古いバージョンの Firefox をサポートする必要があるなら、``rel="noopener noreferrer"`` を使用すること。
+* [ ] **Noopener:** ![Medium][medium_img] ``target="_blank"`` で外部リンクを使用する際には、``rel="noopener"`` 属性をつけて Tabnabbing 脆弱性を防ぐこと。もしあなたが古いバージョンの Firefox をサポートする必要があるなら、``rel="noopener noreferrer"`` を使用すること。
 
 > 📖 [About rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
 
 <!--
-* [ ] **Clean up comments:** ![Low][low_image] Unnecessary code needs to be removed before sending the page to production.
+* [ ] **Clean up comments:** ![Low][low_img] Unnecessary code needs to be removed before sending the page to production.
 -->
 
-* [ ] **不必要なコード:** ![Low][low_image] 不必要なコードは、本番環境にアップロードされる前に削除されていること。
+* [ ] **不必要なコード:** ![Low][low_img] 不必要なコードは、本番環境にアップロードされる前に削除されていること。
 
 <!--
 ### HTML testing
@@ -428,10 +428,10 @@ Some resources possess an emoticon to help you understand which type of content 
 > 🛠 [W3C Link Checker](https://validator.w3.org/checklink)
 
 <!--
-* [ ] **Adblockers test:** ![Medium][medium_image] Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker)
+* [ ] **Adblockers test:** ![Medium][medium_img] Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker)
 -->
 
-* [ ] **広告ブロッカーテスト:** ![Medium][medium_image] 広告ブロッカーが有効でもコンテンツが正しく表示されている。（ユーザーに対してそれらの広告ブロッカーを無効化するようメッセージを表示することができる。）
+* [ ] **広告ブロッカーテスト:** ![Medium][medium_img] 広告ブロッカーが有効でもコンテンツが正しく表示されている。（ユーザーに対してそれらの広告ブロッカーを無効化するようメッセージを表示することができる。）
 
 <!--
 - [ ] **Pixel perfect:** ![High][high_img] Pages are close to pixel perfect. Depending on the quality of the creatives, you may not be 100% accurate, but your page needs to be close to your template.
@@ -490,15 +490,15 @@ Some resources possess an emoticon to help you understand which type of content 
 
 <!--
 * [ ] **Responsive Web Design:** ![High][high_img] The website is using responsive web design.
-* [ ] **CSS Print:** ![Medium][medium_image] A print stylesheet is provided and is correct on each page.
-* [ ] **Preprocessors:** ![Medium][medium_image] Your page is using a CSS preprocessor ([Sass](http://sass-lang.com/) is preferred).
+* [ ] **CSS Print:** ![Medium][medium_img] A print stylesheet is provided and is correct on each page.
+* [ ] **Preprocessors:** ![Medium][medium_img] Your page is using a CSS preprocessor ([Sass](http://sass-lang.com/) is preferred).
 * [ ] **Unique ID:** ![High][high_img] If IDs are used, they are unique to a page
 * [ ] **Reset CSS:** ![High][high_img] A CSS reset (reset, normalize or reboot) is used and up to date. *(If you are using a CSS Framework like Bootstrap or Foundation, a Normalize is already included into it.)*
 -->
 
 * [ ] **Responsive Web Design:** ![High][high_img] そのウェブサイトはレスポンシブデザインを採用している。
-* [ ] **CSS Print:** ![Medium][medium_image] 印刷用のスタイルシートがそれぞれのページに対して正しく提供されている。
-* [ ] **Preprocessors:** ![Medium][medium_image] あなたのサイトは CSS プリプロセッサーを使用している。 ([Sass](http://sass-lang.com/) が推奨される。)
+* [ ] **CSS Print:** ![Medium][medium_img] 印刷用のスタイルシートがそれぞれのページに対して正しく提供されている。
+* [ ] **Preprocessors:** ![Medium][medium_img] あなたのサイトは CSS プリプロセッサーを使用している。 ([Sass](http://sass-lang.com/) が推奨される。)
 * [ ] **Unique ID:** ![High][high_img] もし ID が使用されているなら、そのページの中でユニークであること。
 * [ ] **Reset CSS:** ![High][high_img] CSS のリセット (reset, normalize または reboot) が使用されており最新である。 *(もしあなたが Bootstrap や Foundation などの CSS フレームワークを使用しているなら、それらはすでに導入されている。)*
 
@@ -507,10 +507,10 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Reboot](https://getbootstrap.com/docs/4.0/content/reboot/)
 
 <!--
-* [ ] **JS prefix:** ![Low][low_image] All classes (or id- used in JavaScript files) begin with **js-** and are not styled into the CSS files.
+* [ ] **JS prefix:** ![Low][low_img] All classes (or id- used in JavaScript files) begin with **js-** and are not styled into the CSS files.
 -->
 
-* [ ] **JS prefix:** ![Low][low_image] すべての class (または JavaScript で使用されいる ID) は、**js-** で始まっており、それらは CSS で使用されていない。
+* [ ] **JS prefix:** ![Low][low_img] すべての class (または JavaScript で使用されいる ID) は、**js-** で始まっており、それらは CSS で使用されていない。
 
 ```html
 <div id="js-slider" class="my-slider">
@@ -537,21 +537,21 @@ Some resources possess an emoticon to help you understand which type of content 
 <!--
 - [ ] **Concatenation:** ![High][high_img] CSS files are concatenated in a single file *(Not for HTTP/2)*
 - [ ] **Minification:** ![High][high_img] All CSS files are minified.
-- [ ] **Non-blocking:** ![Medium][medium_image] CSS files need to be non-blocking to prevent the DOM from taking time to load.
+- [ ] **Non-blocking:** ![Medium][medium_img] CSS files need to be non-blocking to prevent the DOM from taking time to load.
 -->
 
 - [ ] **ファイルの結合:** ![High][high_img] CSS ファイルが結合されている。 *(HTTP/2 では不要)*
 - [ ] **ミニファイ:** ![High][high_img] すべての CSS ファイルはミニファイされている。
-- [ ] **ノンブロッキング:** ![Medium][medium_image] CSS ファイルは DOM の読み込みに時間がかからないようにノンブロッキングである。
+- [ ] **ノンブロッキング:** ![Medium][medium_img] CSS ファイルは DOM の読み込みに時間がかからないようにノンブロッキングである。
 
 > * 📖 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
 > * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
 
 <!--
-- [ ] **Unused CSS:** ![Low][low_image] Remove unused CSS
+- [ ] **Unused CSS:** ![Low][low_img] Remove unused CSS
 -->
 
-- [ ] **Unused CSS:** ![Low][low_image] 使用していない CSS は削除されていること。
+- [ ] **Unused CSS:** ![Low][low_img] 使用していない CSS は削除されていること。
 
 > * 🛠 [UnCSS Online](https://uncss-online.com/) 🛠
 > * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
@@ -579,10 +579,10 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **レスポンシブデザイン:** ![High][high_img] すべてのページは、320px, 768px, 1024px のブレイクポイントでテストされていること。（可能であれば、アナリティクスの結果に基づいて他のブレイクポイントでもテストする。）
 
 <!--
-* [ ] **CSS Validator:** ![Medium][medium_image] The CSS was tested and pertinent errors were corrected.
+* [ ] **CSS Validator:** ![Medium][medium_img] The CSS was tested and pertinent errors were corrected.
 -->
 
-* [ ] **CSS バリデーター:** ![Medium][medium_image] CSS がテストされ、関連するエラーが修正されていること。
+* [ ] **CSS バリデーター:** ![Medium][medium_img] CSS がテストされ、関連するエラーが修正されていること。
 
 > 🛠 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -628,13 +628,13 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 🛠 Use [ImageOptim](https://imageoptim.com/) to optimise your images for free.
 
 <!--
-* [ ] **Retina:** ![Low][low_image] You provide layout images x2 or 3x, support retina display.
-* [ ] **Sprite:** ![Medium][medium_image] Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
+* [ ] **Retina:** ![Low][low_img] You provide layout images x2 or 3x, support retina display.
+* [ ] **Sprite:** ![Medium][medium_img] Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
 * [ ] **Width and Height:** ![High][high_img] All ``<img>`` have height and width set (Don't specify px or %).
 -->
 
-* [ ] **Retina:** ![Low][low_image] Retina ディスプレイをサポートするために2倍または3倍のイメージサイズの画像を提供している。
-* [ ] **Sprite:** ![Medium][medium_image] 地位材画像はスプライト画像にまとめられている。（アイコンの場合は、SVGスプライトイメージに含めることができます。）
+* [ ] **Retina:** ![Low][low_img] Retina ディスプレイをサポートするために2倍または3倍のイメージサイズの画像を提供している。
+* [ ] **Sprite:** ![Medium][medium_img] 地位材画像はスプライト画像にまとめられている。（アイコンの場合は、SVGスプライトイメージに含めることができます。）
 * [ ] **Width and Height:** ![High][high_img] すべての ``<img>`` は、`height` と `width` が指定されている。（`px` または `%` を指定しない。）
 
 <!--
@@ -645,11 +645,11 @@ Some resources possess an emoticon to help you understand which type of content 
 
 <!--
 * [ ] **Alternative text:** ![High][high_img] All ``<img>`` have an alternative text which describe the image visually.
-* [ ] **Lazy loading:** ![Medium][medium_image] Images are lazyloaded (A noscript fallback is always provided).
+* [ ] **Lazy loading:** ![Medium][medium_img] Images are lazyloaded (A noscript fallback is always provided).
 -->
 
 * [ ] **Alt テキスト:** ![High][high_img] すべての ``<img>`` は Alt テキストが代替えテキストとして指定されていること。
-* [ ] **遅延ロード:** ![Medium][medium_image] 画像は遅延ロードされていること。（noscript による代替策が常に提供されていること。）
+* [ ] **遅延ロード:** ![Medium][medium_img] 画像は遅延ロードされていること。（noscript による代替策が常に提供されていること。）
 
 <!--
 **[⬆ back to top](#table-of-contents)**
