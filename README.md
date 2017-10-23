@@ -409,7 +409,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **W3C compliant:**: ![High][high_img] All pages need to be tested with the W3C validator to identify possible issues in the HTML code.
 -->
 
-* [ ] **W3C 準拠:**: ![High][high_img] すべてのページを HTML ばりデーターでテストして、問題点を抽出する。
+* [ ] **W3C 準拠:**: ![High][high_img] すべてのページを HTML バリデーターでテストして、問題点を抽出する。
 
 > 🛠 [W3C validator](https://validator.w3.org/)
 
