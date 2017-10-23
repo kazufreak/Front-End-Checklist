@@ -1126,7 +1126,7 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 
 ## 貢献
 
-訳注： 本家版への貢献と区別するため、本家用の貢献については英語の原文そのままを掲載しておきます。
+訳注： オリジナル版への貢献と区別するため、オリジナルへの貢献については英語の原文そのままを掲載しておきます。
 
 **Open an issue or a pull request to suggest changes or additions.**
 
@@ -1168,11 +1168,11 @@ https://github.com/miya0001/Front-End-Checklist
 
 ### 翻訳の手順
 
-本家側の変更を追従させるには以下のような手順で本家側の変更をマージしてください。
+オリジナル側の変更を追従させるには、以下のような手順でオリジナル側の変更をマージしてください。
 
 ```
 $ git clone git@github.com:miya0001/Front-End-Checklist.git
-$ cd Front-End-Checklist.git
+$ cd Front-End-Checklist
 $ git remote add upstream git@github.com:thedaviddias/Front-End-Checklist.git
 $ git fetch upstream
 $ git merge upstream/master
