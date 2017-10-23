@@ -37,13 +37,13 @@ It is based on Front-End developers' years of experience, with the additions com
 1. **[利用方法](#利用方法)**
 2. **[Head](#head)**
 3. **[HTML](#html)**
-4. **[Webfonts](#webfonts)**
+4. **[ウェブフォント](#ウェブフォント)**
 5. **[CSS](#css)**
-6. **[Images](#images)**
+6. **[画像](#画像)**
 7. **[JavaScript](#javascript)**
-8. **[Security](#security)**
-9. **[Performance](#performance)**
-10. **[Accessibility](#accessibility)**
+8. **[セキュリティ](#セキュリティ)**
+9. **[パフォーマンス](#パフォーマンス)**
+10. **[アクセシビリティ](#アクセシビリティ)**
 11. **[SEO](#seo)**
 
 <!--
@@ -393,7 +393,7 @@ Some resources possess an emoticon to help you understand which type of content 
 ### HTML testing
 -->
 
-### HTML テスティング
+### HTML のテスト
 
 <!--
 * [ ] **W3C compliant:**: ![High][high_img] All pages need to be tested with the W3C validator to identify possible issues in the HTML code.
