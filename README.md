@@ -32,7 +32,8 @@ It is based on Front-End developers' years of experience, with the additions com
 9. **[Performance](#performance-1)**
 10. **[Accessibility](#accessibility)**
 11. **[SEO](#seo)**
-<<<<<<< HEAD
+12. **[Translation](#translation)**
+13. **[Contributing](#contributing)**
 -->
 
 1. **[利用方法](#利用方法)**
@@ -46,10 +47,8 @@ It is based on Front-End developers' years of experience, with the additions com
 9. **[パフォーマンス](#パフォーマンス-1)**
 10. **[アクセシビリティ](#アクセシビリティ)**
 11. **[SEO](#seo)**
-=======
-12. **[Translation](#translation)**
+12. **[翻訳](#翻訳)**
 13. **[Contributing](#contributing)**
->>>>>>> upstream/master
 
 <!--
 ## How to use?
