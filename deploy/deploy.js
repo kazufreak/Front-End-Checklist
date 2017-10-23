@@ -2,6 +2,11 @@ global.Promise = require('bluebird');
 require('isomorphic-fetch');
 fs = require( 'fs' );
 
+if ( "false" !== process.env.TRAVIS_PULL_REQUEST ) {
+  console.log( 'Thanks for contribution. :)' );
+  process.exit();
+}
+
 // require in commonjs env
 var Qiita = require( 'qiita-js' );
 
