@@ -6,4 +6,4 @@ https://github.com/thedaviddias/Front-End-Checklist
 
 https://github.com/miya0001/Front-End-Checklist
 
-GitHub側と自動的に連携するようにしておりますので、誤訳や誤りなどがあれば GitHub で報告していただけると幸いです。
+GitHub側と自動的に連携するようにしておりますので、誤訳や誤りなどがあれば GitHub のプルリクエストまたは Issue で報告していただけると幸いです。
