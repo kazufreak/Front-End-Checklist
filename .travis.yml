@@ -1,9 +1,13 @@
 language: node_js
 node_js:
 - 6
+branches:
+  only:
+  - master
 before_script:
 - npm install
-script: npm run deploy
+script: ls -al README.md
+after_success: npm run deploy
 env:
   global:
     secure: M0GpNosMUM3PEE67xzHAicdd18f6T6spaGAv+EQZRadzCHVrtL7o15TPgHAF/ReOvDZ7zrlK4w7KFzg8zRHw62HXjCezAd29KRqucobqERDDJ4qUGu6i9z1fWy+VmDXD6vpazISsiTyub5g3wpZefRWN1BitQgTAuI2+w9I9OGwAc/ROKtl7OLUkLCddz+XL26LPtsfmpVjq6oTLB2u/d4QTQ3nuzEYeeSv/XWRIUPoO8BnLPOhKh81mgK5fzs75jeSk+/cpSlna+jE4529c1BXWPBH3ZPZ774b5rk9DJ84QoZCxUVOCllcPsO63OJPrTuVeKiEYHQNpndElqm/bvA525PP5BsfUkZHAiPnJpXN4BZAyKwcMjPn2SvKaAtd7qode1xhl4ZAVLp1sMlRL2HT2a/b1i/Wo56wNLOsB0CG+PY0oUr+xnnmpkDHQzF5XbdHkT7iUWRaUOrYk+B9/HT5WWHg/24z+b0SdTG+XZShnpbNzZp5kNQ8e7WzGuLOLQJCE5TrvRlgKuFLAouvcNEqo8djGOOIzU2NoGfGUnfO3E5iso9ijJMIH0rIMOhYwl2+kVc5NPxY3WZNq6JAUkkVm9f2DkGuuKQB/DbhRXj5BLsI+PuQUU5HXoaic8ixi13B1453Jbpge/zs0k4t/AjUvIzld+8pQ5GzIpDuduA4=
