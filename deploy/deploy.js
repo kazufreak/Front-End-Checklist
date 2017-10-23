@@ -15,8 +15,8 @@ fs.readFile( __dirname + '/qiita.md', 'utf8', function ( err, head ) {
     Qiita.Resources.Item.update_item( '8fff46c201bf9eaeba4a', {
       title: 'フロントエンドチェックリスト（日本語訳）',
       body: contents,
-      private: true,
-    } ).then( function(res) {
+      private: false,
+    } ).then( function( res ) {
       console.log( res );
     } )
   } );
