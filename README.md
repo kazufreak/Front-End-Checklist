@@ -821,7 +821,7 @@ Some resources possess an emoticon to help you understand which type of content 
 - [ ] **Weight page:** ![High][high_img] The weight of each page is between 0 and 500 KB.
 -->
 
-- [ ] **ページの重さ:** ![High][high_img] それぞれのページの重さは 500 KM以下である。
+- [ ] **ページの重さ:** ![High][high_img] それぞれのページの重さは 500 KB以下である。
 
 > * 🛠 [Website Page Analysis](https://tools.pingdom.com)
 > * 📖 [Size Limit: Make the Web lighter](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
