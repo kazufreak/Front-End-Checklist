@@ -716,7 +716,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **ESLint:** ![High][high_img] No errors are flagged by ESLint (based on your configuration or standards rules).
 -->
 
-* [ ] **ESLint:** ![High][high_img] ESLint にてエラーが発生しないこと。（あなたの設定またはスタンダードなルルーを基準とする。）
+* [ ] **ESLint:** ![High][high_img] ESLint にてエラーが発生しないこと。（あなたの設定またはスタンダードなルールを基準とする。）
 
 > * 📖 [ESLint - The pluggable linting utility for JavaScript and JSX](https://eslint.org/)
 
