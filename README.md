@@ -253,7 +253,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Alternate language:** ![Low][low_img] The language tag of your website is specified and related to the language of the current page.
 -->
 
-* [ ] **代替言語:** ![Low][low_img] あなたのサイトの言語タグが既述されており、現在のページの言語に関連づけられている。（訳注：多言語コンテンツを想定）
+* [ ] **代替言語:** ![Low][low_img] あなたのサイトの言語タグが既述されており、現在のページに言語が関連づけられている。
 
 ```html
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
@@ -1043,7 +1043,13 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ---
 
+<!--
 ## Contributing
+-->
+
+## 貢献
+
+訳注： 本家版への貢献と区別するため、本家用の貢献については英語の原文そのままを掲載しておきます。
 
 **Open an issue or a pull request to suggest changes or additions.**
 
@@ -1074,6 +1080,12 @@ Check out all the super awesome [contributors](https://github.com/thedaviddias/f
 <!--
 **[⬆ back to top](#table-of-contents)**
 -->
+
+## 日本語版への貢献（翻訳）
+
+誤訳、誤記、その他の誤りを見つけた場合には、以下のリポジトリにプルリクエストをお送りいただくか、Issue にてご報告をお願いします。
+
+原則として、このドキュメントはオリジナルの文書に忠実な翻訳をこころがけております。
 
 **[⬆ トップに戻る](#目次)**
 
