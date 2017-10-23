@@ -805,29 +805,62 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ---
 
+<!--
 ## Performance
+-->
 
+## パフォーマンス
+
+<!--
 ### Best practices
+-->
 
+### ベストプラクティス
+
+<!--
 - [ ] **Weight page:** ![High][high_img] The weight of each page is between 0 and 500 KB.
+-->
+
+- [ ] **ページの重さ:** ![High][high_img] それぞれのページの重さは 500 KM以下である。
 
 > * 🛠 [Website Page Analysis](https://tools.pingdom.com)
 > * 📖 [Size Limit: Make the Web lighter](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
+<!--
 - [ ] **Minified:** ![Medium][medium_img] Your HTML is minified.
+-->
+
+- [ ] **ミニファイ:** ![Medium][medium_img] HTML がミニファイされている。
+
 > 🛠 [W3C Validator](https://validator.w3.org/)
 
+<!--
 * [ ] **Lazy loading:** ![Medium][medium_img] Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections).
+-->
 
+* [ ] **Lazy loading:** ![Medium][medium_img] 画像やスクリプト、CSS は、レスポンス時間を改善するために遅延ロードされている。（それぞれのセクションで詳細をみてください。）
+
+<!--
 * [ ] **Cookie size:** If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name don't have more than 20 cookies.
+-->
+
+* [ ] **Cookie size:** もし Cookie を使用しているなら、4096 バイトを超えていないこと、20以上の Cookie を使用していないこと。
 
 > * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
 > * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 > * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
 
+<!--
 ### Performance testing
+-->
 
+### パフォーマンステスト
+
+<!--
 * [ ] **Google PageSpeed:** ![High][high_img] All your pages were tested (not only the homepage) and have a score of at least 90/100.
+-->
+
+* [ ] **Google PageSpeed:** ![High][high_img] ホームページだけでなく、すべてのページがテストされており、90-100 のスコアであること。
 
 > * 🛠 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
 > * 🛠 [Test your mobile speed with Google](https://testmysite.withgoogle.com)
@@ -841,56 +874,121 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ---
 
+<!--
 ## Accessibility
+-->
+
+## アクセシビリティ
 
 > **Notes:** You can watch the playlist [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) 📹
 
+<!--
 ### Best practices
+-->
 
+### ベストプラクティス
+
+<!--
 - [ ] **Progressive enhancement:** ![Medium][medium_img] Major functionality like main navigation and search should work without JavaScript enabled.
+-->
+
+- [ ] **プログレッシブエンハンスメント:** ![Medium][medium_img] 殊勝な機能、たとえばメインナビゲーションや検索などは、JavaScript 無しでも動作しなければならない。
 
 > 📖 [Enable / Disable JavaScript in Chrome Developer Tools](https://www.youtube.com/watch?v=kBmvq2cE0D8)
 
+<!--
 - [ ] **Color contrast:** ![Medium][medium_img] Color contrast should at least pass WCAG AA (AAA for mobile).
+-->
+
+- [ ] **Color contrast:** ![Medium][medium_img] カラーコントラストは WCAG のレベル AA を満たしている。（モバイル向けには AAA）
 
 > 🛠 [Contrast ratio](https://leaverou.github.io/contrast-ratio/)
 
+<!--
 #### Headings
+-->
 
+#### 見出し
+
+<!--
 * [ ] **H1:** ![High][high_img] All pages have an H1 which is not the title of the website.
 * [ ] **Headings:** ![High][high_img] Headings should be used properly in the right order (H1 to H6).
+-->
+
+* [ ] **H1:** ![High][high_img] 全てのページには、サイトのタイトルとは違う H1 がある。
+* [ ] **Headings:** ![High][high_img] 見出しは正しい順序で適切に使用されている。（H1 から H6）
 
 > 📹 [Why headings and landmarks are so important -- A11ycasts #18](https://www.youtube.com/watch?v=vAAzdi1xuUY&index=9&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
+<!--
 #### Landmarks
+-->
 
+#### ランドマーク
+
+<!--
 - [ ] **Role banner:** ![High][high_img] `<header>` has `role="banner"`.
 - [ ] **Role navigation:** ![High][high_img] `<nav>` has `role="navigation"`.
 - [ ] **Role main:** ![High][high_img] `<main>` has `role="main"`.
+-->
+
+- [ ] **Role banner:** ![High][high_img] `<header>` には `role="banner"` がある。
+- [ ] **Role navigation:** ![High][high_img] `<nav>` には `role="navigation"` がある。
+- [ ] **Role main:** ![High][high_img] `<main>` には `role="main"` がある。
 
 > 📖 [Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/GL/wiki/Using_ARIA_landmarks_to_identify_regions_of_a_page)
 
+<!--
 ### Semantics
+-->
 
+### セマンティック
+
+<!--
 - [ ] **Specific HTML5 input types are used:** ![Medium][medium_img] This is especially important for mobile devices that show customized keypads and widgets for different types.
+-->
+
+- [ ] **適切な HTML5 `input` タイプが使用されている:** ![Medium][medium_img] これは、キーパッドやウィジェットが様々なタイプにカスタマイズされるモバイルデバイスでは特に重要です。
 
 > 📖 [Mobile Input Types](http://mobileinputtypes.com/)
 
+<!--
 ### Form
+-->
 
+### フォーム
+
+<!--
 * [ ] **Label:** ![High][high_img] A label is associated with each input form element. In case a label can't be displayed, use `aria-label` instead.
+-->
+
+* [ ] **Label:** ![High][high_img] `label` は、それぞれのフォーム要素に関連づけられている。もし `label` を表示できない場合には `aria-label` を使用する。
 
 > 📖 [Using the aria-label attribute - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
 
+<!--
 ### Accessibility testing
+-->
 
+### アクセシビリティテスト
+
+<!--
 * [ ] **Accessibility standards testing:** ![High][high_img] Use the WAVE tool to test if your page respects the accessibility standards.
+-->
+
+* [ ] **アクセシビリティスタンダードテスト:** ![High][high_img] もしアクセシビリティスタンダードに準拠するなら、WAVE ツールを使用してテストを行うことができる。
 
 > 🛠 [Wave testing](http://wave.webaim.org/)
 
+<!--
 * [ ] **Keyboard navigation:** ![High][high_img] Test your website using only your keyboard in a previsible order. All interactive elements are reachable and usable.
 * [ ] **Screen-reader:** ![Medium][medium_img] All pages were tested in a screen-reader (VoiceOver, ChromeVox, NVDA or Lynx).
 * [ ] **Focus style:** ![High][high_img] If the focus is disabled, it is replaced by visible state in CSS.
+-->
+
+* [ ] **キーボード操作:** ![High][high_img] すべてのインタラクティブな要素に到達可能で使用可能であることが、目に見える順序でキーボードだけを使ってテストされている。
+* [ ] **スクリーンリーダー:** ![Medium][medium_img] すべてのページはスクリーンリーダーでテストされている。（VoiceOver, ChromeVox, NVDA or Lynx）
+* [ ] **フォーカススタイル:** ![High][high_img] もし、フォーカスが無効化されているなら、CSS による状態の可視化に置き換えられている。
 
 > 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
