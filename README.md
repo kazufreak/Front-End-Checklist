@@ -1095,7 +1095,9 @@ Check out all the super awesome [contributors](https://github.com/thedaviddias/f
 
 誤訳、誤記、その他の誤りを見つけた場合には、以下のリポジトリにプルリクエストをお送りいただくか、Issue にてご報告をお願いします。
 
-原則として、このドキュメントはオリジナルの文書に忠実な翻訳をこころがけております。
+https://github.com/miya0001/Front-End-Checklist
+
+原則として、このドキュメントはオリジナルの文書に忠実な翻訳をこころがけております。日本独自の仕様等にもとづく内容の修正等は行なっておりません。
 
 **[⬆ トップに戻る](#目次)**
 
