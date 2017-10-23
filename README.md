@@ -1080,7 +1080,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Sitemap HTML:** ![Medium][medium_img] An HTML sitemap is provided and is accessible via a link in the footer of your website.
 -->
 
-* [ ] **Sitemap HTML:** ![Medium][medium_img] HTML サイトマップが提供されており、フーターのリンクからリンクされている。
+* [ ] **Sitemap HTML:** ![Medium][medium_img] HTML サイトマップが提供されており、フッターのリンクからリンクされている。
 
 > * 📖 [Sitemap guidelines | Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
 > * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
