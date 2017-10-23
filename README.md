@@ -32,6 +32,7 @@ It is based on Front-End developers' years of experience, with the additions com
 9. **[Performance](#performance-1)**
 10. **[Accessibility](#accessibility)**
 11. **[SEO](#seo)**
+<<<<<<< HEAD
 -->
 
 1. **[利用方法](#利用方法)**
@@ -45,6 +46,10 @@ It is based on Front-End developers' years of experience, with the additions com
 9. **[パフォーマンス](#パフォーマンス-1)**
 10. **[アクセシビリティ](#アクセシビリティ)**
 11. **[SEO](#seo)**
+=======
+12. **[Translation](#translation)**
+13. **[Contributing](#contributing)**
+>>>>>>> upstream/master
 
 <!--
 ## How to use?
@@ -1085,6 +1090,28 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Sitemap guidelines | Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
 > * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
 
+
+<!--
+**[⬆ back to top](#table-of-contents)**
+-->
+
+**[⬆ トップに戻る](#目次)**
+
+---
+
+<!--
+## Translation
+-->
+
+## 翻訳
+
+<!--
+The Front-End Checklist is also available in other languages. Thanks for all translators and their awesome work!
+-->
+
+フロントエンドチェックリストは、他の言語でも提供されています。すべての翻訳者の皆さん、すばらしい仕事をしてくれてありがとう！
+
+* 🇯🇵 Japanese: [miya0001/Front-End-Checklist](https://github.com/miya0001/Front-End-Checklist)
 
 <!--
 **[⬆ back to top](#table-of-contents)**
