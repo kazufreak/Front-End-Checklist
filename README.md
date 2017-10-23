@@ -1002,19 +1002,34 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ## SEO
 
+<!--
 * [ ] **Google Analytics:** ![High][high_img] Google Analytics is installed and correctly configured.
 * [ ] **Headings logic:** ![Medium][medium_img] Heading text helps to understand the content in the current page.
 * [ ] **sitemap.xml:** ![High][high_img] A sitemap.xml exists and was submitted to Google Search Console (previously Google Webmaster Tools).
 * [ ] **robots.txt:** ![High][high_img] The robots.txt is not blocking webpages.
+-->
+
+* [ ] **Google Analytics:** ![High][high_img] Google Analytics がインストールされており、正しく設定されている。
+* [ ] **見出し構造:** ![Medium][medium_img] 見出し用のテキストが、そのページの内容を理解することの手助けになっている。
+* [ ] **sitemap.xml:** ![High][high_img] `sitemap.xml` が存在しており Google Search Console に登録されている。（旧 Google Webmaster Tools）
+* [ ] **robots.txt:** ![High][high_img] `robots.txt` によってブロックされていないこと。
 
 > * 🛠 Test your robots.txt with [Google Robots Testing Tool](https://www.google.com/webmasters/tools/robots-testing-tool)
 
+<!--
 * [ ] **Structured Data:** ![High][high_img] Pages using structured data are tested and are without errors. Structured data helps crawlers understand the content in the current page.
+-->
+
+* [ ] **構造化データ:** ![High][high_img] 構造化データを使用しており、エラーがないことをテストされている。構造化データはクローラーがそのページのコンテンツを理解するための手助けになっている。
 
 > * 📖 [Introduction to Structured Data | Search | Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
 > * 🛠 Test your page with the [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
 
+<!--
 * [ ] **Sitemap HTML:** ![Medium][medium_img] An HTML sitemap is provided and is accessible via a link in the footer of your website.
+-->
+
+* [ ] **Sitemap HTML:** ![Medium][medium_img] HTML サイトマップが提供されており、フーターのリンクからリンクされている。
 
 > * 📖 [Sitemap guidelines | Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
 > * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
