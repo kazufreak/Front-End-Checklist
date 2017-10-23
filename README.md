@@ -173,7 +173,7 @@ Some resources possess an emoticon to help you understand which type of content 
 <title>Page Title less than 65 characters</title>
 ```
 
-> 📖 [Title - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+> 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
 <!--
 * [ ] **Description:** ![High][high_img] A meta description is provided, it is unique and doesn't possess more than 150 characters.
@@ -251,7 +251,7 @@ Some resources possess an emoticon to help you understand which type of content 
 <html dir="rtl">
 ```
 
-> 📖 [dir - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
+> 📖 [dir - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
 
 <!--
 * [ ] **Alternate language:** ![Low][low_img] The language tag of your website is specified and related to the language of the current page.
@@ -595,6 +595,9 @@ Some resources possess an emoticon to help you understand which type of content 
 -->
 
 * [ ] **書字方向:** ![High][high_img] すべてのページは、必要に応じて LTR 及び RTL でテストされていること。
+
+> * 📖 [Building RTL-Aware Web Apps & Websites: Part 1 - Mozilla Hacks](https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/)
+> * 📖 [Building RTL-Aware Web Apps & Websites: Part 2 - Mozilla Hacks](https://hacks.mozilla.org/2015/10/building-rtl-aware-web-apps-websites-part-2/)
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -1077,7 +1080,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 * [ ] **構造化データ:** ![High][high_img] 構造化データを使用しており、エラーがないことをテストされている。構造化データはクローラーがそのページのコンテンツを理解するための手助けになっている。
 
-> * 📖 [Introduction to Structured Data | Search | Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
+> * 📖 [Introduction to Structured Data - Search - Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
 > * 🛠 Test your page with the [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
 
 <!--
@@ -1086,7 +1089,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 * [ ] **Sitemap HTML:** ![Medium][medium_img] HTML サイトマップが提供されており、フッターのリンクからリンクされている。
 
-> * 📖 [Sitemap guidelines | Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
+> * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
 > * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
 
 
