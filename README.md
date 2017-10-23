@@ -245,7 +245,7 @@ Some resources possess an emoticon to help you understand which type of content 
 * [ ] **Direction tag:** ![Medium][medium_img] The direction of lecture is specified on the body tag (It can be used on another HTML tag).
 -->
 
-* [ ] **文字方向:** ![Medium][medium_img] 文字方向が記述されている。（これは他の HTML タグ上でも使用可能である。）
+* [ ] *書字方向:** ![Medium][medium_img] 書字方向が記述されている。（これは他の HTML タグ上でも使用可能である。）
 
 ```html
 <html dir="rtl">
@@ -545,7 +545,7 @@ Some resources possess an emoticon to help you understand which type of content 
 -->
 
 - [ ] **ファイルの結合:** ![High][high_img] CSS ファイルが結合されている。 *(HTTP/2 では不要)*
-- [ ] **ミニファイ:** ![High][high_img] すべての CSS ファイルはミニファイされている。
+- [ ] **圧縮（Minify）:** ![High][high_img] すべての CSS ファイルは圧縮されている。
 - [ ] **ノンブロッキング:** ![Medium][medium_img] CSS ファイルは DOM の読み込みに時間がかからないようにノンブロッキングである。
 
 > * 📖 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
@@ -682,7 +682,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 * [ ] **インライン JavaScript:** ![High][high_img] インライン JavaScript がないこと。（HTML と混ざっているもの）
 * [ ] **ファイルの結合:** ![High][high_img] JavaScript ファイルは一つのファイルに結合されていること。
-* [ ] **ミニファイ:** ![High][high_img] JavaScript ファイルはミニファイされていること。（`.min.js` という拡張子を使用できる。）
+* [ ] **圧縮（Minify）:** ![High][high_img] JavaScript ファイルは圧縮されていること。（`.min.js` という拡張子を使用できる。）
 
 > [Minify Resources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
 
@@ -837,7 +837,7 @@ Some resources possess an emoticon to help you understand which type of content 
 - [ ] **Minified:** ![Medium][medium_img] Your HTML is minified.
 -->
 
-- [ ] **ミニファイ:** ![Medium][medium_img] HTML がミニファイされている。
+- [ ] **圧縮（Minify）:** ![Medium][medium_img] HTML が圧縮されている。
 
 > 🛠 [W3C Validator](https://validator.w3.org/)
 
