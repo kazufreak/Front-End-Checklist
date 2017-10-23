@@ -1,3 +1,13 @@
+GitHubでフロントエンドチェックリストというものが公開されており、網羅されている内容が幅広く便利そうだったので、日本語に翻訳しました。
+
+https://github.com/thedaviddias/Front-End-Checklist
+
+日本語版は、以下のGitHubリポジトリにあります。
+
+https://github.com/miya0001/Front-End-Checklist
+
+誤訳や誤りなどがあれば GitHub で報告していただけると幸いです。
+
 # フロントエンドチェックリスト
 [![Contributors](https://img.shields.io/github/contributors/thedaviddias/Front-End-Checklist.svg)](https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -42,7 +52,7 @@ It is based on Front-End developers' years of experience, with the additions com
 6. **[画像](#画像)**
 7. **[JavaScript](#javascript)**
 8. **[セキュリティ](#セキュリティ)**
-9. **[パフォーマンス](#パフォーマンス)**
+9. **[パフォーマンス](#パフォーマンス-1)**
 10. **[アクセシビリティ](#アクセシビリティ)**
 11. **[SEO](#seo)**
 
