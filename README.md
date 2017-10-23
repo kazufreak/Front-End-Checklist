@@ -1,4 +1,8 @@
+<!--
+# Front-End Checklist
+-->
 # フロントエンドチェックリスト
+[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 [![Contributors](https://img.shields.io/github/contributors/thedaviddias/Front-End-Checklist.svg)](https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -21,34 +25,28 @@ It is based on Front-End developers' years of experience, with the additions com
 ## 目次
 
 <!--
-1. **[How to use](#how-to-use)**
-2. **[Head](#head)**
-3. **[HTML](#html)**
-4. **[Webfonts](#webfonts)**
-5. **[CSS](#css)**
-6. **[Images](#images)**
-7. **[JavaScript](#javascript)**
-8. **[Security](#security)**
-9. **[Performance](#performance-1)**
-10. **[Accessibility](#accessibility)**
-11. **[SEO](#seo)**
-12. **[Translation](#translation)**
-13. **[Contributing](#contributing)**
+1. **[Head](#head)**
+2. **[HTML](#html)**
+3. **[Webfonts](#webfonts)**
+4. **[CSS](#css)**
+5. **[Images](#images)**
+6. **[JavaScript](#javascript)**
+7. **[Security](#security)**
+8. **[Performance](#performance-1)**
+9. **[Accessibility](#accessibility)**
+10. **[SEO](#seo)**
 -->
 
-1. **[利用方法](#利用方法)**
-2. **[Head](#head)**
-3. **[HTML](#html)**
-4. **[ウェブフォント](#ウェブフォント)**
-5. **[CSS](#css)**
-6. **[画像](#画像)**
-7. **[JavaScript](#javascript)**
-8. **[セキュリティ](#セキュリティ)**
-9. **[パフォーマンス](#パフォーマンス-1)**
-10. **[アクセシビリティ](#アクセシビリティ)**
-11. **[SEO](#seo)**
-12. **[翻訳](#翻訳)**
-13. **[Contributing](#contributing)**
+1. **[Head](#head)**
+2. **[HTML](#html)**
+3. **[ウェブフォント](#ウェブフォント)**
+4. **[CSS](#css)**
+5. **[画像](#画像)**
+6. **[JavaScript](#javascript)**
+7. **[セキュリティ](#セキュリティ)**
+8. **[パフォーマンス](#パフォーマンス-1)**
+9. **[アクセシビリティ](#アクセシビリティ)**
+10. **[SEO](#seo)**
 
 <!--
 ## How to use?
@@ -1147,6 +1145,26 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 フロントエンドチェックリストは、他の言語でも提供されています。すべての翻訳者の皆さん、すばらしい仕事をしてくれてありがとう！
 
 * 🇯🇵 Japanese: [miya0001/Front-End-Checklist](https://github.com/miya0001/Front-End-Checklist)
+
+---
+
+<!--
+## Front-End Checklist Badge
+-->
+
+## フロントエンドチェックリストバッジ
+
+<!--
+If you want to show you are following the rules of the Front-End Checklist, put this badge on your README file!
+-->
+
+もし、フロントエンドチェックリストのルールに従っていることをアピールしたいなら、README ファイルにこのバッジを貼ってください。
+
+➔ ![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)
+
+```md
+![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)
+```
 
 <!--
 **[⬆ back to top](#table-of-contents)**
