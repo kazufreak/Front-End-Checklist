@@ -892,7 +892,7 @@ Some resources possess an emoticon to help you understand which type of content 
 - [ ] **Progressive enhancement:** ![Medium][medium_img] Major functionality like main navigation and search should work without JavaScript enabled.
 -->
 
-- [ ] **プログレッシブエンハンスメント:** ![Medium][medium_img] 殊勝な機能、たとえばメインナビゲーションや検索などは、JavaScript 無しでも動作しなければならない。
+- [ ] **プログレッシブエンハンスメント:** ![Medium][medium_img] 主要な機能、たとえばメインナビゲーションや検索などは、JavaScript 無しでも動作しなければならない。
 
 > 📖 [Enable / Disable JavaScript in Chrome Developer Tools](https://www.youtube.com/watch?v=kBmvq2cE0D8)
 
