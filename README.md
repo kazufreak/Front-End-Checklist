@@ -638,7 +638,7 @@ Some resources possess an emoticon to help you understand which type of content 
 -->
 
 * [ ] **Retina:** ![Low][low_img] Retina ディスプレイをサポートするために2倍または3倍のイメージサイズの画像を提供している。
-* [ ] **Sprite:** ![Medium][medium_img] 地位材画像はスプライト画像にまとめられている。（アイコンの場合は、SVGスプライトイメージに含めることができます。）
+* [ ] **Sprite:** ![Medium][medium_img] 小さい画像はスプライト画像にまとめられている。（アイコンの場合は、SVGスプライトイメージに含めることができます。）
 * [ ] **Width and Height:** ![High][high_img] すべての ``<img>`` は、`height` と `width` が指定されている。（`px` または `%` を指定しない。）
 
 <!--
