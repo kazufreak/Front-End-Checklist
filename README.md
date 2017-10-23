@@ -851,6 +851,57 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
 
 <!--
+### Preparing upcoming requests
+-->
+
+### HTTP リクエストの最適化
+
+> 📖 [Explanation of the following techniques](https://css-tricks.com/prefetching-preloading-prebrowsing/)
+
+<!--
+* [ ] **DNS resolution:** ![Low][low_img] DNS of third-party services that may be needed are resolved in advance during idle time using `dns-prefetch`.
+-->
+
+* [ ] **DNS resolution:** ![Low][low_img] サードパーティーサービスの DNS には `dns-prefetch` を使用して、アイドル時間中に名前解決を行う。
+
+
+```html
+<link rel="dns-prefetch" href="https://example.com">
+```
+
+<!--
+* [ ] **Preconnection:** ![Low][low_img] DNS lookup, TCP handshake and TLS negociation with services that will be needed soon is done in advance during idle time using `preconnect`.
+-->
+
+* [ ] **Preconnection:** ![Low][low_img] サードパーティーサービスの DNS ルックアップ、TCP ハンドシェイク及び TLS ネゴシエーションには、`preconnect` を使用してアイドル時間中に事前に行われている。
+
+```html
+<link rel="preconnect" href="https://example.com">
+```
+
+<!--
+* [ ] **Prefetching:** ![Low][low_img] Resources that will be needed soon (e.g. lazy loaded images) are requested in advance during idle time using `prefetch`.
+-->
+
+* [ ] **Prefetching:** ![Low][low_img] すぐに必要になりそうなリソース（たとえば遅延ロードを行なっている画像）は、`prefetch` を使用してアイドル時間中にリクエストを行なっている。
+
+```html
+<link rel="prefetch" href="image.png">
+```
+
+<!--
+* [ ] **Preloading:** ![Low][low_img] Resources needed in the current page (e.g. scripts placed at the end of `<body>`) in advance using `preload`.
+-->
+
+* [ ] **Preloading:** ![Low][low_img] そのページで必要なリソース（たとえば `<body>` の最後に設置されているスクリプトなど）には `preload` を使用している。
+
+```html
+<link rel="preload" href="app.js">
+```
+
+> 📖 [Difference between prefetch and preload](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
+
+<!--
 ### Performance testing
 -->
 
@@ -1088,6 +1139,20 @@ Check out all the super awesome [contributors](https://github.com/thedaviddias/f
 https://github.com/miya0001/Front-End-Checklist
 
 原則として、このドキュメントはオリジナルの文書に忠実な翻訳をこころがけております。日本語独自の仕様等にもとづく内容の修正等は行なっておりません。
+
+### 翻訳の手順
+
+本家側の変更を追従させるには以下のような手順で本家側の変更をマージしてください。
+
+```
+$ git clone git@github.com:miya0001/Front-End-Checklist.git
+$ cd Front-End-Checklist.git
+$ git remote add upstream git@github.com:thedaviddias/Front-End-Checklist.git
+$ git fetch upstream
+$ git merge upstream/master
+```
+
+翻訳する際には、オリジナルの原文を `<!-- -->` でコメントアウトしておくと、オリジナル側で変更があった際に差分を確認しやすくなります。
 
 **[⬆ トップに戻る](#目次)**
 
