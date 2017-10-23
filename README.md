@@ -1,13 +1,3 @@
-GitHubでフロントエンドチェックリストというものが公開されており、網羅されている内容が幅広く便利そうだったので、日本語に翻訳しました。
-
-https://github.com/thedaviddias/Front-End-Checklist
-
-日本語版は、以下のGitHubリポジトリにあります。
-
-https://github.com/miya0001/Front-End-Checklist
-
-誤訳や誤りなどがあれば GitHub で報告していただけると幸いです。
-
 # フロントエンドチェックリスト
 [![Contributors](https://img.shields.io/github/contributors/thedaviddias/Front-End-Checklist.svg)](https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -1097,11 +1087,10 @@ Check out all the super awesome [contributors](https://github.com/thedaviddias/f
 
 https://github.com/miya0001/Front-End-Checklist
 
-原則として、このドキュメントはオリジナルの文書に忠実な翻訳をこころがけております。日本独自の仕様等にもとづく内容の修正等は行なっておりません。
+原則として、このドキュメントはオリジナルの文書に忠実な翻訳をこころがけております。日本語独自の仕様等にもとづく内容の修正等は行なっておりません。
 
 **[⬆ トップに戻る](#目次)**
 
 [low_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png
 [medium_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png
 [high_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png
-

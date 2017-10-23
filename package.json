@@ -1,0 +1,25 @@
+{
+  "name": "front-end-checklist",
+  "version": "1.0.0",
+  "description": "GitHubでフロントエンドチェックリストというものが公開されており、網羅されている内容が幅広く便利そうだったので、日本語に翻訳しました。",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node deploy/deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miya0001/Front-End-Checklist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miya0001/Front-End-Checklist/issues"
+  },
+  "homepage": "https://github.com/miya0001/Front-End-Checklist#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "isomorphic-fetch": "^2.2.1",
+    "qiita-js": "^0.4.3"
+  }
+}
