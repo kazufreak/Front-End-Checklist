@@ -2,6 +2,8 @@
 # Front-End Checklist
 -->
 # フロントエンドチェックリスト
+
+[![Join the chat at https://gitter.im/Front-End-Checklist/Lobby](https://badges.gitter.im/Front-End-Checklist/Lobby.svg)](https://gitter.im/Front-End-Checklist/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 [![Contributors](https://img.shields.io/github/contributors/thedaviddias/Front-End-Checklist.svg)](https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -879,7 +881,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **Lazy loading:** ![Medium][medium_img] 画像やスクリプト、CSS は、レスポンス時間を改善するために遅延ロードされている。（それぞれのセクションで詳細をみてください。）
 
 <!--
-* [ ] **Cookie size:** If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name don't have more than 20 cookies.
+* [ ] **Cookie size:** If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
 -->
 
 * [ ] **Cookie size:** もし Cookie を使用しているなら、4096 バイトを超えていないこと、20以上の Cookie を使用していないこと。
@@ -1160,10 +1162,10 @@ If you want to show you are following the rules of the Front-End Checklist, put 
 
 もし、フロントエンドチェックリストのルールに従っていることをアピールしたいなら、README ファイルにこのバッジを貼ってください。
 
-➔ ![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)
+➔ [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 
 ```md
-![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)
+[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 ```
 
 <!--
@@ -1200,9 +1202,16 @@ This branch will be used to make some significant changes to the structure, cont
 
 Check out all the super awesome [contributors](https://github.com/thedaviddias/frontendchecklist/graphs/contributors).
 
+## Support
+
+If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
+
+* [Chat on Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+* [Twitter](https://twitter.com/thedaviddias)
+
 ## Authors
 
-**[David Dias](https://github.com/thedaviddias/Front-End-Checklist)**, **[Geoffrey Signorato](https://github.com/geosenna)**, **[Sandeep Ramgolam](https://twitter.com/__Sun__)** and **[Cédric Poilly](https://github.com/CedricPoilly)**.
+**[David Dias](https://github.com/thedaviddias/Front-End-Checklist)**, **[Geoffrey Signorato](https://github.com/geosenna)**, **[Sandeep Ramgolam](https://twitter.com/__Sun__)** and **[Cedric Poilly](https://github.com/CedricPoilly)**.
 
 ## License
 
