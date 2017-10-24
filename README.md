@@ -681,7 +681,7 @@ browserconfig.xml の必要最小限の構成は以下:
 > ***Note:*** Lots of developers assume that width and height are not compatible with responsive web design. It's absolutely not the case.
 -->
 
-> ***備考:*** 開発者の多くは、`width` と `height` がレスポンシブウェブデザインと互換性がないと想定しています。 断じてそうではありません。
+> ***備考:*** 開発者の多くは、`width` と `height` がレスポンシブウェブデザインと互換性がないと誤解していますが、断じてそうではありません。
 
 <!--
 * [ ] **Alternative text:** ![High][high_img] All ``<img>`` have an alternative text which describe the image visually.
