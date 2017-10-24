@@ -163,10 +163,10 @@ Some resources possess an emoticon to help you understand which type of content 
 ```
 
 <!--
-* [ ] **Title:** ![High][high_img] A title is used on all pages (SEO: No more than 65 characters, website title included).
+* [ ] **Title:** ![High][high_img] A title is used on all pages (SEO: Google calculate the pixel width of the characters used in the title, cut off between 472 and 482 pixels. Average character limit would be around 55-characters).
 -->
 
-* [ ] **Title:** ![High][high_img] title が全てのページで使用されている。（SEO: ウェブサイトのタイトルも含めて65文字以内であること。）
+* [ ] **Title:** ![High][high_img] title が全てのページで使用されている。（SEO: Google は、タイトルで使用される文字幅をピクセルで計算し、472から482ピクセルで切り詰めます。平均的な文字数は半角で55文字となります。）
 
 ```html
 <!-- Document Title -->
@@ -1147,6 +1147,7 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 フロントエンドチェックリストは、他の言語でも提供されています。すべての翻訳者の皆さん、すばらしい仕事をしてくれてありがとう！
 
 * 🇯🇵 Japanese: [miya0001/Front-End-Checklist](https://github.com/miya0001/Front-End-Checklist)
+* 🇪🇸 Spanish: [eoasakura/Front-End-Checklist-ES](https://github.com/eoasakura/Front-End-Checklist-ES)
 
 ---
 
@@ -1211,7 +1212,7 @@ If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
 
 ## Authors
 
-**[David Dias](https://github.com/thedaviddias/Front-End-Checklist)**, **[Geoffrey Signorato](https://github.com/geosenna)**, **[Sandeep Ramgolam](https://twitter.com/__Sun__)** and **[Cedric Poilly](https://github.com/CedricPoilly)**.
+**[David Dias](https://github.com/thedaviddias/Front-End-Checklist)**
 
 ## License
 
