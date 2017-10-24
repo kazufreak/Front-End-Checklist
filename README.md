@@ -1232,7 +1232,7 @@ https://github.com/miya0001/Front-End-Checklist
 
 ### 翻訳の手順
 
-オリジナル側の変更を追従させるには、以下のような手順でオリジナル側の変更をマージしてください。
+オリジナル側の変更を日本語版に反映するには、以下のような手順でオリジナル側の変更をマージしてください。
 
 ```
 $ git clone git@github.com:miya0001/Front-End-Checklist.git
