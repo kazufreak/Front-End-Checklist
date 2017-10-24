@@ -407,7 +407,7 @@ browserconfig.xml の必要最小限の構成は以下:
 > 📖 [HTML Reference](http://htmlreference.io/)
 
 <!--
-* [ ] **Error pages:** ![High][high_img] Error 404 page and 5xx exist. Remember that the 5xx error page needs to have his CSS integrated (no external call on the current server).
+* [ ] **Error pages:** ![High][high_img] Error 404 page and 5xx exist. Remember that the 5xx error pages need to have their CSS integrated (no external call on the current server).
 -->
 
 * [ ] **エラーページ:** ![High][high_img] 404 及び 5xx 用のエラーページが存在している。5xx エラーページは CSS が内蔵されている必要があることを覚えておくこと。（サーバーに対する追加のリクエストを行わないこと。）
