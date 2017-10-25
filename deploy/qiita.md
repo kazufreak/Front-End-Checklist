@@ -7,7 +7,7 @@ https://github.com/thedaviddias/Front-End-Checklist
 日本語版は、以下のGitHubリポジトリにあります。GitHub側と自動的に連携するようにしておりますので、誤訳や誤りなどがあれば GitHub のプルリクエストまたは Issue で報告していただけると幸いです。
 
 * https://github.com/miya0001/Front-End-Checklist
-* [日本語版への貢献方法](https://github.com/miya0001/Front-End-Checklist#日本語版への貢献翻訳)
+* [日本語版への貢献方法](https://github.com/miya0001/Front-End-Checklist/blob/master/README-ja.md)
 
 最終更新日時: __LAST_UPDATE__ ([未翻訳](https://github.com/miya0001/Front-End-Checklist/compare/master...thedaviddias:master))
 

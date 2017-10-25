@@ -1241,28 +1241,6 @@ If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
 **[⬆ back to top](#table-of-contents)**
 -->
 
-## 日本語版への貢献（翻訳）
-
-誤訳、誤記、その他の誤りを見つけた場合には、以下のリポジトリにプルリクエストをお送りいただくか、Issue にてご報告をお願いします。
-
-https://github.com/miya0001/Front-End-Checklist
-
-原則として、このドキュメントはオリジナルの文書に忠実な翻訳をこころがけております。日本語独自の仕様等にもとづく内容の修正等は行なっておりません。
-
-### 翻訳の手順
-
-オリジナル側の変更を日本語版に反映するには、以下のような手順でオリジナル側の変更をマージしてください。
-
-```
-$ git clone git@github.com:miya0001/Front-End-Checklist.git
-$ cd Front-End-Checklist
-$ git remote add upstream git@github.com:thedaviddias/Front-End-Checklist.git
-$ git fetch upstream
-$ git merge upstream/master
-```
-
-翻訳する際には、オリジナルの原文をコメントアウトして残して、その下に翻訳した文章を追加してください。
-
 **[⬆ トップに戻る](#目次)**
 
 [low_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png
