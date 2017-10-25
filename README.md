@@ -6,6 +6,7 @@
 [![Join the chat at https://gitter.im/Front-End-Checklist/Lobby](https://badges.gitter.im/Front-End-Checklist/Lobby.svg)](https://gitter.im/Front-End-Checklist/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 [![Contributors](https://img.shields.io/github/contributors/thedaviddias/Front-End-Checklist.svg)](https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors)
+[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/thedaviddias/front-end-checklist)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 <!--
@@ -19,6 +20,14 @@ It is based on Front-End developers' years of experience, with the additions com
 -->
 
 これは、フロントエンド開発者たちの数年に及ぶ経験にもとづいており、さらに他のオープンソースのチェックリストの内容も追加されています。
+
+<!--
+*Help to share the Front-End Checklist by voting and recommending on Product Hunt*
+[![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
+-->
+
+*Product Hunt で投票または推薦をして、フロントエンドチェックリストが広まるようにご協力をお願いします。*
+[![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
 
 <!--
 ## Table of Contents
@@ -261,6 +270,13 @@ browserconfig.xml の必要最小限の構成は以下:
 <!-- Helps prevent duplicate content issues -->
 <link rel="canonical" href="http://example.com/2017/09/a-new-article-to-red.html">
 ```
+
+> 📖 [Use canonical URLs - Search Console Help - Google Support](https://support.google.com/webmasters/answer/139066?hl=en)
+> 📖 [5 common mistakes with rel=canonical - Google Webmaster Blog](https://webmasters.googleblog.com/2013/04/5-common-mistakes-with-relcanonical.html)
+
+<!--
+### HTML tags
+-->
 
 ### HTML タグ
 
@@ -1039,7 +1055,7 @@ browserconfig.xml の必要最小限の構成は以下:
 - [ ] **Specific HTML5 input types are used:** ![Medium][medium_img] This is especially important for mobile devices that show customized keypads and widgets for different types.
 -->
 
-- [ ] **適切な HTML5 `input` タイプが使用されている:** ![Medium][medium_img] これは、キーパッドやウィジェットが様々なタイプにカスタマイズされるモバイルデバイスでは特に重要です。
+- [ ] **適切な HTML5 `input` タイプが使用されている:** ![Medium][medium_img] これは、キーパッドやウィジェットが様々なタイプにカスタマイズされるモバイルデバイスでは特に重要である。
 
 > 📖 [Mobile Input Types](http://mobileinputtypes.com/)
 
@@ -1150,6 +1166,7 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 * 🇪🇸 Spanish: [eoasakura/Front-End-Checklist-ES](https://github.com/eoasakura/Front-End-Checklist-ES)
 * 🇨🇳 Chinese: [JohnsenZhou/Front-End-Checklist](https://github.com/JohnsenZhou/Front-End-Checklist)
 * 🇰🇷 Korean: [kesuskim/Front-End-Checklist](https://github.com/kesuskim/Front-End-Checklist)
+* 🇧🇷 Portuguese: [jcezarms/Front-End-Checklist](https://github.com/jcezarms/Front-End-Checklist)
 
 ---
 
