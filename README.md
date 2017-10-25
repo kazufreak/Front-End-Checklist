@@ -10,7 +10,7 @@
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 <!--
-The **Front-End Checklist** is an exhaustive list of all elements you need to have / to test before launching your site / page HTML to production.
+The **Front-End Checklist** is an exhaustive list of all elements you need to have / to test before launching your site / HTML page to production.
 -->
 
 **フロントエンドチェックリスト**は、みなさんがウェブサイトや HTML ページを本番環境で公開する前に確認するべきあらゆる項目を網羅したリストです。
@@ -820,7 +820,7 @@ browserconfig.xml の必要最小限の構成は以下:
 > * 📖 [Transport Layer Protection Cheat Sheet - OWASP](https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet)
 
 <!--
-* [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] You are ensure that requests made to your server-side are legitimate and originate from your website / app to prevent CSRF attacks.
+* [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] You ensure that requests made to your server-side are legitimate and originate from your website / app to prevent CSRF attacks.
 -->
 
 * [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] CSRF 攻撃を防ぐために、あなたのサーバーへのリクエストにたいしては、それがあなたのウェブサイト/アプリから送信されていることを確認している。
@@ -840,7 +840,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **Content Type Options** ![Medium][medium_img] Prevents Google Chrome and Internet Explorer from trying to mime-sniff the content-type of a response away from the one being declared by the server.
 -->
 
-* [ ] **Content Type Options** ![Medium][medium_img] サーバーからのレスポンスヘッダーによって、Google Chrome と Internet Explorer による、mime-sniff による Content-Type に一致しない動作を防止する。
+* [ ] **Content Type Options** ![Medium][medium_img] サーバーからの `X-Content-Type-Options` ヘッダーによって、Google Chrome や Internet Explorer の mime-sniff による Content-Type に一致しない動作を防止する。
 
 > * 📖 [X-Content-Type-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-content-type-options)
 
