@@ -281,20 +281,20 @@ browserconfig.xml の必要最小限の構成は以下:
 ### HTML タグ
 
 <!--
-* [ ] **Language tag:** ![High][high_img] The language tag of your website is specified and related to the language of the current page.
+* [ ] **Language attribute:** ![High][high_img] The language tag of your website is specified and related to the language of the current page.
 -->
 
-* [ ] **言語:** ![High][high_img] あなたのサイトの言語タグが記述されており、そのページの言語を指定している。
+* [ ] **Language 属性:** ![High][high_img] あなたのサイトの言語を指定するための `lang` 属性が記述されている。
 
 ```html
 <html lang="en">
 ```
 
 <!--
-* [ ] **Direction tag:** ![Medium][medium_img] The direction of lecture is specified on the body tag (It can be used on another HTML tag).
+* [ ] **Direction attribute:** ![Medium][medium_img] The direction of lecture is specified on the body tag (It can be used on another HTML tag).
 -->
 
-* [ ] *書字方向:** ![Medium][medium_img] 書字方向が記述されている。（これは他の HTML タグ上でも使用可能である。）
+* [ ] **Direction 属性:** ![Medium][medium_img] 書字方向を指定するための `dir` 属性が body タグに指定されている。（これは他の HTML タグ上でも使用可能である。）
 
 ```html
 <html dir="rtl">
@@ -545,13 +545,14 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **Responsive Web Design:** ![High][high_img] The website is using responsive web design.
 * [ ] **CSS Print:** ![Medium][medium_img] A print stylesheet is provided and is correct on each page.
 * [ ] **Preprocessors:** ![Medium][medium_img] Your page is using a CSS preprocessor ([Sass](http://sass-lang.com/) is preferred).
-* [ ] **Unique ID:** ![High][high_img] If IDs are used, they are unique to a page
+* [ ] **Preprocessors:** ![Low][low_img] Your page is using a CSS preprocessor ([Sass](http://sass-lang.com/) is preferred).
+* [ ] **Unique ID:** ![High][high_img] If IDs are used, they are unique to a page.
 * [ ] **Reset CSS:** ![High][high_img] A CSS reset (reset, normalize or reboot) is used and up to date. *(If you are using a CSS Framework like Bootstrap or Foundation, a Normalize is already included into it.)*
 -->
 
 * [ ] **Responsive Web Design:** ![High][high_img] そのウェブサイトはレスポンシブデザインを採用している。
 * [ ] **CSS Print:** ![Medium][medium_img] 印刷用のスタイルシートがそれぞれのページに対して正しく提供されている。
-* [ ] **Preprocessors:** ![Medium][medium_img] あなたのサイトは CSS プリプロセッサーを使用している。 ([Sass](http://sass-lang.com/) が推奨される。)
+* [ ] **Preprocessors:** ![Low][low_img] あなたのサイトは CSS プリプロセッサーを使用している。 ([Sass](http://sass-lang.com/) が推奨される。)
 * [ ] **Unique ID:** ![High][high_img] もし ID が使用されているなら、そのページの中でユニークであること。
 * [ ] **Reset CSS:** ![High][high_img] CSS のリセット (reset, normalize または reboot) が使用されており最新である。 *(もしあなたが Bootstrap や Foundation などの CSS フレームワークを使用しているなら、それらはすでに導入されている。)*
 
@@ -700,11 +701,17 @@ browserconfig.xml の必要最小限の構成は以下:
 > ***備考:*** 開発者の多くは、`width` と `height` がレスポンシブウェブデザインと互換性がないと誤解していますが、断じてそうではありません。
 
 <!--
-* [ ] **Alternative text:** ![High][high_img] All ``<img>`` have an alternative text which describe the image visually.
-* [ ] **Lazy loading:** ![Medium][medium_img] Images are lazyloaded (A noscript fallback is always provided).
+* [ ] **Alternative text:** ![High][high_img] All `<img>` have an alternative text which describe the image visually.
 -->
 
 * [ ] **Alt テキスト:** ![High][high_img] すべての ``<img>`` は Alt テキストが代替えテキストとして指定されていること。
+
+> * 📖 [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/)
+
+<!--
+* [ ] **Lazy loading:** ![Medium][medium_img] Images are lazyloaded (A noscript fallback is always provided).
+-->
+
 * [ ] **遅延ロード:** ![Medium][medium_img] 画像は遅延ロードされていること。（noscript による代替策が常に提供されていること。）
 
 <!--
