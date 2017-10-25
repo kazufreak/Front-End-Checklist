@@ -124,7 +124,7 @@ Some resources possess an emoticon to help you understand which type of content 
 <!doctype html>
 ```
 
-> 📖 [Determining the character encoding - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
+> * 📖 [Determining the character encoding - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
 
 <!--
 *The next 3 meta tags (Charset, X-UA Compatible and Viewport) need to come first in the head.*
@@ -155,7 +155,7 @@ Some resources possess an emoticon to help you understand which type of content 
 ```
 
 <!--
-> 📖 [Specifying legacy document modes (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
+> * 📖 [Specifying legacy document modes (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
 -->
 
 > 📖 [レガシードキュメントモードの設定 (Internet Explorer)](https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx)
@@ -182,7 +182,7 @@ Some resources possess an emoticon to help you understand which type of content 
 <title>Page Title less than 65 characters</title>
 ```
 
-> 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+> * 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
 <!--
 * [ ] **Description:** ![High][high_img] A meta description is provided, it is unique and doesn't possess more than 150 characters.
@@ -225,7 +225,7 @@ Some resources possess an emoticon to help you understand which type of content 
 <link rel="apple-touch-icon" href="/custom-icon.png">
 ```
 
-> 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+> * 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
 <!--
 - [ ] **Windows Tiles:**![Low][low_img] Windows tiles are present and linked.
@@ -258,7 +258,7 @@ browserconfig.xml の必要最小限の構成は以下:
 </browserconfig>
 ```
 
-> 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426(v=vs.85).aspx)
+> * 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426(v=vs.85).aspx)
 
 <!--
 * [ ] **Canonical:** ![Medium][medium_img] Use `rel="canonical"` to avoid duplicate content.
@@ -300,7 +300,7 @@ browserconfig.xml の必要最小限の構成は以下:
 <html dir="rtl">
 ```
 
-> 📖 [dir - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
+> * 📖 [dir - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
 
 <!--
 * [ ] **Alternate language:** ![Low][low_img] The language tag of your website is specified and related to the language of the current page.
@@ -318,7 +318,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **条件分岐コメント:** ![Low][low_img] もし必要なら、IE 用の条件分岐コメントタグが設置されている。
 
-> 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
+> * 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
 <!--
 * [ ] **RSS feed:** ![Low][low_img] If your project is a blog or has articles, an RSS link was provided.
@@ -334,7 +334,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 > 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
-> 🛠 [Critical by Addy Osmani on Github](https://github.com/addyosmani/critical)
+> * 🛠 [Critical by Addy Osmani on Github](https://github.com/addyosmani/critical)
 
 <!--
 * [ ] **CSS order:** ![High][high_img] All CSS files are loaded before any JavaScript files in the `<head>`. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
@@ -420,7 +420,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **HTML5 セマンティック要素:** ![High][high_img] HTML5 セマンティック要素が適切に使用されている。(header, section, footer, main...)
 
-> 📖 [HTML Reference](http://htmlreference.io/)
+> * 📖 [HTML Reference](http://htmlreference.io/)
 
 <!--
 * [ ] **Error pages:** ![High][high_img] Error 404 page and 5xx exist. Remember that the 5xx error pages need to have their CSS integrated (no external call on the current server).
@@ -434,7 +434,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **Noopener:** ![Medium][medium_img] ``target="_blank"`` で外部リンクを使用する際には、``rel="noopener"`` 属性をつけて Tabnabbing 脆弱性を防ぐこと。もしあなたが古いバージョンの Firefox をサポートする必要があるなら、``rel="noopener noreferrer"`` を使用すること。
 
-> 📖 [About rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
+> * 📖 [About rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
 
 <!--
 * [ ] **Clean up comments:** ![Low][low_img] Unnecessary code needs to be removed before sending the page to production.
@@ -454,7 +454,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **W3C 準拠:**: ![High][high_img] すべてのページを HTML バリデーターでテストして、問題点を抽出する。
 
-> 🛠 [W3C validator](https://validator.w3.org/)
+> * 🛠 [W3C validator](https://validator.w3.org/)
 
 <!--
 * [ ] **HTML Lint:** ![High][high_img] I use tools to help me analyze any issues I could have on my HTML code.
@@ -462,7 +462,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **HTML Lint:** ![High][high_img] ツールを使って HTML に問題があるかどうかを分析する。
 
-> 🛠 [Dirty markup](https://dirtymarkup.com/)
+> * 🛠 [Dirty markup](https://dirtymarkup.com/)
 
 <!--
 * [ ] **Desktop Browsers:** ![High][high_img] All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...).
@@ -478,7 +478,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **リンクチェッカー:** ![High][high_img] リンク切れがなく、404 エラーが発生しないことを確認する。
 
-> 🛠 [W3C Link Checker](https://validator.w3.org/checklink)
+> * 🛠 [W3C Link Checker](https://validator.w3.org/checklink)
 
 <!--
 * [ ] **Adblockers test:** ![Medium][medium_img] Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker)
@@ -579,7 +579,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **内部 CSS 及びインラインスタイル:** ![High][high_img] 内部 CSS やインラインスタイルを使用することを避け、正当な理由でのみ使用する。（例： スライダー用の背景画像や CSS クリティカルなど）
 * [ ] **ベンダープレフィックス:** ![High][high_img] CSS ベンダープレフィックスが、ブラウザの互換性に基づいて生成され、使用されている。
 
-> 🛠 [Autoprefixer CSS online](https://autoprefixer.github.io/)
+> * 🛠 [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
 <!--
 ### Performance
@@ -637,7 +637,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **CSS バリデーター:** ![Medium][medium_img] CSS がテストされ、関連するエラーが修正されていること。
 
-> 🛠 [CSS Validator](https://jigsaw.w3.org/css-validator/)
+> * 🛠 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 <!--
 * [ ] **Reading direction:** ![High][high_img] All pages need to be tested for LTR and RTL languages if they need to be supported.
@@ -733,11 +733,11 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **ファイルの結合:** ![High][high_img] JavaScript ファイルは一つのファイルに結合されていること。
 * [ ] **圧縮（Minify）:** ![High][high_img] JavaScript ファイルは圧縮されていること。（`.min.js` という拡張子を使用できる。）
 
-> [Minify Resources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
+> * 📖 [Minify Resources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
 
 * [ ] **JavaScript セキュリティ:**
 
-> [Guidelines for Developing Secure Applications Utilizing JavaScript](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript)*
+> * 📖 [Guidelines for Developing Secure Applications Utilizing JavaScript](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript)
 
 <!--
 * [ ] **Non-blocking:** ![Medium][medium_img] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
@@ -745,7 +745,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **ノンブロッキング:** ![Medium][medium_img] JavaScript ファイルは、`async` 属性を使用して非同期で読み込まれるか、`defer` 属性を使用して遅延実行されている。
 
-> 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
+> * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
 <!--
 * [ ] **Modernizr:** ![Low][low_img] If you need to target some specific features you can use a custom Modernizr to add classes in your `<html>` tag.
@@ -753,7 +753,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **Modernizr:** ![Low][low_img] もし、ある特定の機能を使用する際には、Modernizr を使用して、`<html>` の class を追加することができる。
 
-> 🛠 [Customize your Modernizr](https://modernizr.com/download?setclasses)
+> * 🛠 [Customize your Modernizr](https://modernizr.com/download?setclasses)
 
 <!--
 ### JavaScript testing
@@ -825,7 +825,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] CSRF 攻撃を防ぐために、あなたのサーバーへのリクエストにたいしては、それがあなたのウェブサイト/アプリから送信されていることを確認している。
 
-> 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
+> * 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
 
 <!--
 * [ ] **Cross Site Scripting (XSS):** ![High][high_img] Your page or website is free from XSS possible issues.
@@ -888,7 +888,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 - [ ] **圧縮（Minify）:** ![Medium][medium_img] HTML が圧縮されている。
 
-> 🛠 [W3C Validator](https://validator.w3.org/)
+> * 🛠 [W3C Validator](https://validator.w3.org/)
 
 <!--
 * [ ] **Lazy loading:** ![Medium][medium_img] Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections).
@@ -912,7 +912,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 ### HTTP リクエストの最適化
 
-> 📖 [Explanation of the following techniques](https://css-tricks.com/prefetching-preloading-prebrowsing/)
+> * 📖 [Explanation of the following techniques](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 
 <!--
 * [ ] **DNS resolution:** ![Low][low_img] DNS of third-party services that may be needed are resolved in advance during idle time using `dns-prefetch`.
@@ -955,7 +955,7 @@ browserconfig.xml の必要最小限の構成は以下:
 <link rel="preload" href="app.js">
 ```
 
-> 📖 [Difference between prefetch and preload](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
+> * 📖 [Difference between prefetch and preload](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 
 <!--
 ### Performance testing
@@ -1001,7 +1001,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 - [ ] **プログレッシブエンハンスメント:** ![Medium][medium_img] 主要な機能、たとえばメインナビゲーションや検索などは、JavaScript 無しでも動作しなければならない。
 
-> 📖 [Enable / Disable JavaScript in Chrome Developer Tools](https://www.youtube.com/watch?v=kBmvq2cE0D8)
+> * 📖 [Enable / Disable JavaScript in Chrome Developer Tools](https://www.youtube.com/watch?v=kBmvq2cE0D8)
 
 <!--
 - [ ] **Color contrast:** ![Medium][medium_img] Color contrast should at least pass WCAG AA (AAA for mobile).
@@ -1009,7 +1009,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 - [ ] **Color contrast:** ![Medium][medium_img] カラーコントラストは WCAG のレベル AA を満たしている。（モバイル向けには AAA）
 
-> 🛠 [Contrast ratio](https://leaverou.github.io/contrast-ratio/)
+> * 🛠 [Contrast ratio](https://leaverou.github.io/contrast-ratio/)
 
 <!--
 #### Headings
@@ -1025,7 +1025,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **H1:** ![High][high_img] 全てのページには、サイトのタイトルとは違う H1 がある。
 * [ ] **Headings:** ![High][high_img] 見出しは正しい順序で適切に使用されている。（H1 から H6）
 
-> 📹 [Why headings and landmarks are so important -- A11ycasts #18](https://www.youtube.com/watch?v=vAAzdi1xuUY&index=9&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
+> * 📹 [Why headings and landmarks are so important -- A11ycasts #18](https://www.youtube.com/watch?v=vAAzdi1xuUY&index=9&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
 <!--
 #### Landmarks
@@ -1043,7 +1043,7 @@ browserconfig.xml の必要最小限の構成は以下:
 - [ ] **Role navigation:** ![High][high_img] `<nav>` には `role="navigation"` がある。
 - [ ] **Role main:** ![High][high_img] `<main>` には `role="main"` がある。
 
-> 📖 [Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/GL/wiki/Using_ARIA_landmarks_to_identify_regions_of_a_page)
+> * 📖 [Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/GL/wiki/Using_ARIA_landmarks_to_identify_regions_of_a_page)
 
 <!--
 ### Semantics
@@ -1057,7 +1057,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 - [ ] **適切な HTML5 `input` タイプが使用されている:** ![Medium][medium_img] これは、キーパッドやウィジェットが様々なタイプにカスタマイズされるモバイルデバイスでは特に重要である。
 
-> 📖 [Mobile Input Types](http://mobileinputtypes.com/)
+> * 📖 [Mobile Input Types](http://mobileinputtypes.com/)
 
 <!--
 ### Form
@@ -1071,7 +1071,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **Label:** ![High][high_img] `label` は、それぞれのフォーム要素に関連づけられている。もし `label` を表示できない場合には `aria-label` を使用する。
 
-> 📖 [Using the aria-label attribute - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
+> * 📖 [Using the aria-label attribute - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
 
 <!--
 ### Accessibility testing
@@ -1085,7 +1085,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **アクセシビリティスタンダードテスト:** ![High][high_img] もしアクセシビリティスタンダードに準拠するなら、WAVE ツールを使用してテストを行うことができる。
 
-> 🛠 [Wave testing](http://wave.webaim.org/)
+> * 🛠 [Wave testing](http://wave.webaim.org/)
 
 <!--
 * [ ] **Keyboard navigation:** ![High][high_img] Test your website using only your keyboard in a previsible order. All interactive elements are reachable and usable.
@@ -1097,7 +1097,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **スクリーンリーダー:** ![Medium][medium_img] すべてのページはスクリーンリーダーでテストされている。（VoiceOver, ChromeVox, NVDA or Lynx）
 * [ ] **フォーカススタイル:** ![High][high_img] もし、フォーカスが無効化されているなら、CSS による状態の可視化に置き換えられている。
 
-> 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
+> * 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -1131,6 +1131,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 > * 📖 [Introduction to Structured Data - Search - Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
 > * 🛠 Test your page with the [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
+> * 🛠 Complete list of vocabularies that can be used as structured data. [Schema.org Full Heirarchy](http://schema.org/docs/full.html)
 
 <!--
 * [ ] **Sitemap HTML:** ![Medium][medium_img] An HTML sitemap is provided and is accessible via a link in the footer of your website.
