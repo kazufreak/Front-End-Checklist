@@ -281,20 +281,20 @@ browserconfig.xml の必要最小限の構成は以下:
 ### HTML タグ
 
 <!--
-* [ ] **Language attribute:** ![High][high_img] The language tag of your website is specified and related to the language of the current page.
+* [ ] **Language attribute:** ![High][high_img] The language attribute of your website is specified and related to the language of the current page.
 -->
 
-* [ ] **Language 属性:** ![High][high_img] あなたのサイトの言語を指定するための `lang` 属性が記述されている。
+* [ ] **Language 属性:** ![High][high_img] あなたのサイトの言語を指定するための ``lang`` 属性が記述されている。
 
 ```html
 <html lang="en">
 ```
 
 <!--
-* [ ] **Direction attribute:** ![Medium][medium_img] The direction of lecture is specified on the body tag (It can be used on another HTML tag).
+* [ ] **Direction attribute:** ![Medium][medium_img] The direction of lecture is specified on the html tag (It can be used on another HTML tag).
 -->
 
-* [ ] **Direction 属性:** ![Medium][medium_img] 書字方向を指定するための `dir` 属性が body タグに指定されている。（これは他の HTML タグ上でも使用可能である。）
+* [ ] **Direction 属性:** ![Medium][medium_img] 書字方向を指定するための `dir` 属性が ``<html>`` タグに指定されている。（これは他の HTML タグ上でも使用可能である。）
 
 ```html
 <html dir="rtl">
