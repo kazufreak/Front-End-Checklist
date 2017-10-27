@@ -195,6 +195,8 @@ Some resources possess an emoticon to help you understand which type of content 
 <meta name="description" content="Description of the page less than 150 characters">
 ```
 
+> * 📖[Meta Description - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description)
+
 <!--
 * [ ] **Favicons:** ![Medium][medium_img] Each favicon has been created and displays correctly. If you have only a `favicon.ico`, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over `.ico` format (dimensions: 32x32px).
 -->
@@ -281,7 +283,7 @@ browserconfig.xml の必要最小限の構成は以下:
 ### HTML タグ
 
 <!--
-* [ ] **Language attribute:** ![High][high_img] The language attribute of your website is specified and related to the language of the current page.
+* [ ] **Language attribute:** ![High][high_img] The `lang` attribute of your website is specified and related to the language of the current page.
 -->
 
 * [ ] **Language 属性:** ![High][high_img] あなたのサイトの言語を指定するための ``lang`` 属性が記述されている。
@@ -327,14 +329,12 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **RSS フィード:** ![Low][low_img] もしあなたのサイトがブログ、もしくは記事をもっているなら、RSS へのリンクが提供されている。
 
 <!--
-* [ ] **CSS Critical:** ![Medium][medium_img] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified).
+* [ ] **inline critical CSS:** ![Medium][medium_img] CSS which styles content that is immediately visible during pageload ("above the fold content") is called "critical CSS". It is embedded before your principal CSS call and between `<style></style>` in a single line (minified).
 -->
 
-* [ ] **CSS クリティカル:** ![Medium][medium_img] クリティカル CSS (または "above the fold") が、ページの可視部分をレンダリングするために使用されるすべての CSS を収集していること。それは主な CSS を読み込む前に呼び出されており、``<style></style>`` の間に1行で記述されている。（圧縮されている）
+* [ ] **インラインクリティカル CSS:** ![Medium][medium_img] ページロード時にすぐに表示される部分のコンテンツを整える CSS は（"above the fold content"）、クリティカル CSS によってコールされている。それは、主要な CSS の前の `<style></style>` の間に記述されている。（圧縮されている）
 
-> 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
-
-> * 🛠 [Critical by Addy Osmani on Github](https://github.com/addyosmani/critical)
+> * 🛠 [Critical by Addy Osmani on Github](https://github.com/addyosmani/critical) automates this
 
 <!--
 * [ ] **CSS order:** ![High][high_img] All CSS files are loaded before any JavaScript files in the `<head>`. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
@@ -465,14 +465,6 @@ browserconfig.xml の必要最小限の構成は以下:
 > * 🛠 [Dirty markup](https://dirtymarkup.com/)
 
 <!--
-* [ ] **Desktop Browsers:** ![High][high_img] All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...).
-* [ ] **Mobile Browsers:**  ![High][high_img] All pages were tested on all current mobile browsers (Native browser, Chrome, Safari...).
--->
-
-* [ ] **デスクトップブラウザ:** ![High][high_img] すべてのページは、現在のすべてのデスクトップブラウザでテストされている。(Safari, Firefox, Chrome, Internet Explorer, EDGE...)
-* [ ] **モバイルブラウザ:**  ![High][high_img] すべてのページは、現在のすべてのモバイルブラウザでテストされている。(Native browser, Chrome, Safari...)
-
-<!--
 * [ ] **Link checker:** ![High][high_img] There are no broken links in my page, verify that you don't have any 404 error.
 -->
 
@@ -485,14 +477,6 @@ browserconfig.xml の必要最小限の構成は以下:
 -->
 
 * [ ] **広告ブロッカーテスト:** ![Medium][medium_img] 広告ブロッカーが有効でもコンテンツが正しく表示されている。（ユーザーに対してそれらの広告ブロッカーを無効化するようメッセージを表示することができる。）
-
-<!--
-- [ ] **Pixel perfect:** ![High][high_img] Pages are close to pixel perfect. Depending on the quality of the creatives, you may not be 100% accurate, but your page needs to be close to your template.
--->
-
-- [ ] **ピクセルパーフェクト:** ![High][high_img] すべてのページはピクセルパーフェクトに近い状態であること。クリエイティブの品質によっては 100% 正確ではない場合があるが、テンプレートにほぼ近い状態である必要がある。
-
-> [Pixel Perfect - Chrome Extension](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -573,11 +557,11 @@ browserconfig.xml の必要最小限の構成は以下:
 ```
 
 <!--
-* [ ] **CSS embed or line:** ![High][high_img] Avoid at all cost the use of CSS embed or inline: only used for valid reasons (ex: background-image for slider, CSS critical).
+* [ ] **Embedded or inline CSS:** ![High][high_img] Avoid at all cost embeding CSS in `<style>` tags or using inline CSS: only use for valid reasons (e.g. background-image for slider, critical CSS).
 * [ ] **Vendor prefixes:** ![High][high_img] CSS vendor prefixes are used and are generated accordingly with your browser support compatibility.
 -->
 
-* [ ] **内部 CSS 及びインラインスタイル:** ![High][high_img] 内部 CSS やインラインスタイルを使用することを避け、正当な理由でのみ使用する。（例： スライダー用の背景画像や CSS クリティカルなど）
+* [ ] **内部 CSS 及びインラインスタイル:** ![High][high_img] `<style>` による内部 CSS やインラインスタイルを使用することを避け、正当な理由でのみ使用する。（例： スライダー用の背景画像や CSS クリティカルなど）
 * [ ] **ベンダープレフィックス:** ![High][high_img] CSS ベンダープレフィックスが、ブラウザの互換性に基づいて生成され、使用されている。
 
 > * 🛠 [Autoprefixer CSS online](https://autoprefixer.github.io/)
@@ -641,6 +625,22 @@ browserconfig.xml の必要最小限の構成は以下:
 > * 🛠 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 <!--
+* [ ] **Desktop Browsers:** ![High][high_img] All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...).
+* [ ] **Mobile Browsers:**  ![High][high_img] All pages were tested on all current mobile browsers (Native browser, Chrome, Safari...).
+* [ ] **OS:**  ![High][high_img] All pages were tested on all current OS (Windows, Android, iOS, Mac...).
+
+- [ ] **Pixel perfect:** ![High][high_img] Pages are close to pixel perfect. Depending on the quality of the creatives, you may not be 100% accurate, but your page needs to be close to your template.
+-->
+
+* [ ] **デスクトップブラウザ:** ![High][high_img] すべてのページは現在あるすべてのデスクトップブラウザでテストされている。 (Safari, Firefox, Chrome, Internet Explorer, EDGE...)
+* [ ] **モバイルブラウザ:**  ![High][high_img] すべてのページは現在あるすべてのモバイルブラウザでテストされている。 (Native browser, Chrome, Safari...)
+* [ ] **OS:**  ![High][high_img] すべてのページは現在あるすべての OS でテストされている。 (Windows, Android, iOS, Mac...).
+
+- [ ] **ピクセルパーフェクト:** ![High][high_img] すべてのページはピクセルパーフェクトに近い状態であること。クリエイティブの品質によっては 100% 正確ではない場合があるが、テンプレートにほぼ近い状態である必要がある。
+
+> [Pixel Perfect - Chrome Extension](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)
+
+<!--
 * [ ] **Reading direction:** ![High][high_img] All pages need to be tested for LTR and RTL languages if they need to be supported.
 -->
 
@@ -685,25 +685,23 @@ browserconfig.xml の必要最小限の構成は以下:
 > * 🛠 Use [ImageOptim](https://imageoptim.com/) to optimise your images for free.
 
 <!--
-* [ ] **Retina:** ![Low][low_img] You provide layout images x2 or 3x, support retina display.
+* [ ] **Picture/Srcset:** ![Medium][medium_img] You use picture/srcset to provide the most appropriate image for the current viewport of the user.
+-->
+
+* [ ] **Picture/Srcset:** ![Medium][medium_img] `picture/srcset` によって現在のビューポートに最も適切なイメージを提供する。
+
+> * 📖 [How to Build Responsive Images with srcset](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/)
+
+<!--
+* [ ] **Retina:** ![Low][low_img] You provide layout images 2x or 3x, support retina display.
 * [ ] **Sprite:** ![Medium][medium_img] Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
-* [ ] **Width and Height:** ![High][high_img] All ``<img>`` have height and width set (Don't specify px or %).
+* [ ] **Width and Height:** ![High][high_img] Set `width` and `height` attributes on `<img>` if the final rendered image size is known (can be omitted for CSS sizing).
+* [ ] **Alternative text:** ![High][high_img] All `<img>` have an alternative text which describe the image visually.
 -->
 
 * [ ] **Retina:** ![Low][low_img] Retina ディスプレイをサポートするために2倍または3倍のイメージサイズの画像を提供している。
 * [ ] **Sprite:** ![Medium][medium_img] 小さい画像はスプライト画像にまとめられている。（アイコンの場合は、SVGスプライトイメージに含めることができます。）
-* [ ] **Width and Height:** ![High][high_img] すべての ``<img>`` は、`height` と `width` が指定されている。（`px` または `%` を指定しない。）
-
-<!--
-> ***Note:*** Lots of developers assume that width and height are not compatible with responsive web design. It's absolutely not the case.
--->
-
-> ***備考:*** 開発者の多くは、`width` と `height` がレスポンシブウェブデザインと互換性がないと誤解していますが、断じてそうではありません。
-
-<!--
-* [ ] **Alternative text:** ![High][high_img] All `<img>` have an alternative text which describe the image visually.
--->
-
+* [ ] **Width and Height:** ![High][high_img] 最終的に表示される際のサイズがわかっている場合、すべての `<img>` は、`height` と `width` が指定されている。（`px` または `%` を指定しない。）
 * [ ] **Alt テキスト:** ![High][high_img] すべての ``<img>`` は Alt テキストが代替えテキストとして指定されていること。
 
 > * 📖 [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/)
@@ -912,6 +910,14 @@ browserconfig.xml の必要最小限の構成は以下:
 > * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
 > * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 > * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
+
+<!--
+* [ ] **Third party components:** ![Medium][medium_img] Third party iframes or components relying on external JS (like sharing buttons) are replaced by static components when possible, thus limiting calls to external APIs and keeping your users activity private.
+-->
+
+* [ ] **Third party components:** ![Medium][medium_img] 外部の JS に依存するサードパーティの iframe やコンポーネントは（例えばソーシャル共有ボタン）、可能な限りスタティックなコンポーネントに置き換えられるべきである。これによって外部 API の呼び出しに制限を与えることができ、ユーザーのプライバシーを保護することができる。
+
+> * 🛠 [Simple sharing buttons generator](https://simplesharingbuttons.com/)
 
 <!--
 ### Preparing upcoming requests
