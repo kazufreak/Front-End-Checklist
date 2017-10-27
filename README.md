@@ -183,6 +183,7 @@ Some resources possess an emoticon to help you understand which type of content 
 ```
 
 > * 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+> * 🛠 [SERP Snippet Generator](https://www.sistrix.com/serp-snippet-generator/)
 
 <!--
 * [ ] **Description:** ![High][high_img] A meta description is provided, it is unique and doesn't possess more than 150 characters.
