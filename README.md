@@ -361,7 +361,11 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **Facebook Open Graph:** ![Low][low_img] すべての Facebook Open Graph (OG) はテストされ、不足がなく不具合もない。画像サイズは少なくとも 600 x 315 ピクセル以上であり、1200 x 630 ピクセルを推奨する。
 
+<!--
 > **Notes:** Using use og:image:width and og:image:height will specify the image dimensions to the crawler so that it can render the image immediately without having to asynchronously download and process it.
+-->
+
+> **備考:** `og:image:width` と `og:image:height` を使用して画像の縦横サイズを指定すると、非同期にダウンロードして処理することなく、即座に画像をレンダリングすることができます。
 
 ```html
 <meta property="og:type" content="website">
