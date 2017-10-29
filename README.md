@@ -361,6 +361,8 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **Facebook Open Graph:** ![Low][low_img] すべての Facebook Open Graph (OG) はテストされ、不足がなく不具合もない。画像サイズは少なくとも 600 x 315 ピクセル以上であり、1200 x 630 ピクセルを推奨する。
 
+> **Notes:** Using use og:image:width and og:image:height will specify the image dimensions to the crawler so that it can render the image immediately without having to asynchronously download and process it.
+
 ```html
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://example.com/page.html">
@@ -369,10 +371,14 @@ browserconfig.xml の必要最小限の構成は以下:
 <meta property="og:description" content="Description Here">
 <meta property="og:site_name" content="Site Name">
 <meta property="og:locale" content="en_US">
+<!-- Next tags are optional but recommended -->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 ```
 
 <!--
 > * 📖 [A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters/)
+> * 📖 [Best Practices - Sharing](https://developers.facebook.com/docs/sharing/best-practices/)
 > * 🛠 Test your page with the [Facebook OG testing](https://developers.facebook.com/tools/debug/)
 -->
 
@@ -494,6 +500,12 @@ browserconfig.xml の必要最小限の構成は以下:
 ## ウェブフォント
 
 <!--
+> **Notes:** Using webfonts may cause Flash Of Unstyled Text/Flash Of Invisible Text - consider having fallback fonts and/or utilizing webfont loaders to control behavior.
+-->
+
+> **備考:** Webフォントを使用すると、スタイルが適用されていないテキストが表示される現象（FFlash Of Unstyled Text）や フォントがロードされるまで表示されない現象（Flash of Invisible Text）が発生する可能性があります。フォールバックフォントを使用するか、ウェブフォントローダーを使用して動作を制御することを検討してください。
+
+<!--
 * [ ] **Webfont format:** ![High][high_img] WOFF, WOFF2 and TTF are supported by all modern browsers.
 -->
 
@@ -511,6 +523,14 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **ウェブフォントのサイズ:** ![High][high_img] ウェブフォントのサイズは、すべての綴りが含まれた状態で 2MB を超えないこと。
 
 <!--
+* [ ] **Webfont loader:** ![Low][low_img] Control loading behavior with a webfont loader
+-->
+
+* [ ] **ウェブフォントローダー:** ![Low][low_img] ウェブフォントローダーで、ロード時の挙動を制御する。
+
+> * 🛠 [Typekit Web Font Loader](https://github.com/typekit/webfontloader)
+
+<!--
 **[⬆ back to top](#table-of-contents)**
 -->
 
@@ -521,10 +541,10 @@ browserconfig.xml の必要最小限の構成は以下:
 ## CSS
 
 <!--
-> **Notes:** Take a look at [CSS guidelines](https://cssguidelin.es/) and [Sass Guidelines](https://sass-guidelin.es/) followed by most  Front-End developers. If you have a doubt about CSS properties, you can visit [CSS Reference](http://cssreference.io/).
+> **Notes:** Take a look at [CSS guidelines](https://cssguidelin.es/) and [Sass Guidelines](https://sass-guidelin.es/) followed by most  Front-End developers. If you have a doubt about CSS properties, you can visit [CSS Reference](http://cssreference.io/). There is also a short [Code Guide](http://codeguide.co/) for consistency
 -->
 
-> **備考:** 多くのフロントエンド開発者が従っている [CSS guidelines](https://cssguidelin.es/) と [Sass Guidelines](https://sass-guidelin.es/) を見てみましょう。 もし CSS プロパティについて疑問があるなら、[CSS Reference](http://cssreference.io/) に訪れてみましょう。
+> **備考:** 多くのフロントエンド開発者が従っている [CSS guidelines](https://cssguidelin.es/) と [Sass Guidelines](https://sass-guidelin.es/) を見てみましょう。 もし CSS プロパティについて疑問があるなら、[CSS Reference](http://cssreference.io/) に訪れてみましょう。また一貫性を学ぶための短めの [Code Guide](http://codeguide.co/) もあります。
 
 <!--
 * [ ] **Responsive Web Design:** ![High][high_img] The website is using responsive web design.
@@ -1183,6 +1203,7 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 * 🇰🇷 Korean: [kesuskim/Front-End-Checklist](https://github.com/kesuskim/Front-End-Checklist)
 * 🇧🇷 Portuguese: [jcezarms/Front-End-Checklist](https://github.com/jcezarms/Front-End-Checklist)
 * 🇻🇳 Vietnamese: [euclid1990/Front-End-Checklist](https://github.com/euclid1990/Front-End-Checklist)
+* 🇹🇼 Traditional Chinese: [EngineLin/Front-End-Checklist](https://github.com/EngineLin/Front-End-Checklist)
 
 ---
 
