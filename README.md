@@ -179,7 +179,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ```html
 <!-- Document Title -->
-<title>Page Title less than 65 characters</title>
+<title>Page Title less than 55 characters</title>
 ```
 
 > * 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
@@ -330,7 +330,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **RSS フィード:** ![Low][low_img] もしあなたのサイトがブログ、もしくは記事をもっているなら、RSS へのリンクが提供されている。
 
 <!--
-* [ ] **inline critical CSS:** ![Medium][medium_img] CSS which styles content that is immediately visible during pageload ("above the fold content") is called "critical CSS". It is embedded before your principal CSS call and between `<style></style>` in a single line (minified).
+* [ ] **Inline critical CSS:** ![Medium][medium_img] CSS which styles content that is immediately visible during pageload ("above the fold content") is called "critical CSS". It is embedded before your principal CSS call and between `<style></style>` in a single line (minified).
 -->
 
 * [ ] **インラインクリティカル CSS:** ![Medium][medium_img] ページロード時にすぐに表示される部分のコンテンツを整える CSS は（"above the fold content"）、クリティカル CSS によってコールされている。それは、主要な CSS の前の `<style></style>` の間に記述されている。（圧縮されている）
@@ -366,6 +366,8 @@ browserconfig.xml の必要最小限の構成は以下:
 -->
 
 > **備考:** `og:image:width` と `og:image:height` を使用して画像の縦横サイズを指定すると、非同期にダウンロードして処理することなく、即座に画像をレンダリングすることができます。
+
+> **Notes:** Using use `og:image:width` and `og:image:height` will specify the image dimensions to the crawler so that it can render the image immediately without having to asynchronously download and process it.
 
 ```html
 <meta property="og:type" content="website">
@@ -475,6 +477,8 @@ browserconfig.xml の必要最小限の構成は以下:
 
 > * 🛠 [Dirty markup](https://dirtymarkup.com/)
 
+> * 🛠 [Sonar a linting tool for the web](https://sonarwhal.com/)
+
 <!--
 * [ ] **Link checker:** ![High][high_img] There are no broken links in my page, verify that you don't have any 404 error.
 -->
@@ -505,9 +509,11 @@ browserconfig.xml の必要最小限の構成は以下:
 
 <!--
 > **Notes:** Using webfonts may cause Flash Of Unstyled Text/Flash Of Invisible Text - consider having fallback fonts and/or utilizing webfont loaders to control behavior.
+> * 📖 [Google Technical considerations about webfonts](https://developers.google.com/fonts/docs/technical_considerations)
 -->
 
 > **備考:** Webフォントを使用すると、スタイルが適用されていないテキストが表示される現象（FFlash Of Unstyled Text）や フォントがロードされるまで表示されない現象（Flash of Invisible Text）が発生する可能性があります。フォールバックフォントを使用するか、ウェブフォントローダーを使用して動作を制御することを検討してください。
+> * 📖 [Google Technical considerations about webfonts](https://developers.google.com/fonts/docs/technical_considerations)
 
 <!--
 * [ ] **Webfont format:** ![High][high_img] WOFF, WOFF2 and TTF are supported by all modern browsers.
@@ -545,7 +551,7 @@ browserconfig.xml の必要最小限の構成は以下:
 ## CSS
 
 <!--
-> **Notes:** Take a look at [CSS guidelines](https://cssguidelin.es/) and [Sass Guidelines](https://sass-guidelin.es/) followed by most  Front-End developers. If you have a doubt about CSS properties, you can visit [CSS Reference](http://cssreference.io/). There is also a short [Code Guide](http://codeguide.co/) for consistency
+> **Notes:** Take a look at [CSS guidelines](https://cssguidelin.es/) and [Sass Guidelines](https://sass-guidelin.es/) followed by most  Front-End developers. If you have a doubt about CSS properties, you can visit [CSS Reference](http://cssreference.io/). There is also a short [Code Guide](http://codeguide.co/) for consistency.
 -->
 
 > **備考:** 多くのフロントエンド開発者が従っている [CSS guidelines](https://cssguidelin.es/) と [Sass Guidelines](https://sass-guidelin.es/) を見てみましょう。 もし CSS プロパティについて疑問があるなら、[CSS Reference](http://cssreference.io/) に訪れてみましょう。また一貫性を学ぶための短めの [Code Guide](http://codeguide.co/) もあります。
@@ -708,6 +714,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 > * 🛠 [Imagemin](https://github.com/imagemin/imagemin)
 > * 🛠 Use [ImageOptim](https://imageoptim.com/) to optimise your images for free.
+> * 🛠 Use [Kraken.io](https://kraken.io/web-interface) awesome alternative for both png and jpg optimization. Up to 1mb per files on free plan.
 
 <!--
 * [ ] **Picture/Srcset:** ![Medium][medium_img] You use picture/srcset to provide the most appropriate image for the current viewport of the user.
@@ -884,6 +891,16 @@ browserconfig.xml の必要最小限の構成は以下:
 > * 📖 [RFC7034 - HTTP Header Field X-Frame-Options](https://tools.ietf.org/html/rfc7034)
 
 <!--
+* [ ] **Content Security Policy** ![Medium][medium_img] Defines how content is loaded on your site and from where it is permitted to be loaded. Can also be used to protect against clickjacking attacks.
+-->
+
+* [ ] **Content Security Policy** ![Medium][medium_img] Content Security Policy によってあなたのサイトで、コンテンツがどのように読み込まれるか、許可されている場所から読み込まれているかなどを定義している。これはクリックジャッキング攻撃等からも防御することができる。
+
+> * 📖 [Content Security Policy - An Introduction - Scott Helme](https://scotthelme.co.uk/content-security-policy-an-introduction/)
+> * 📖 [CSP Cheat Sheet - Scott Helme](https://scotthelme.co.uk/csp-cheat-sheet/)
+> * 📖 [CSP Cheat Sheet - OWASP](https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet)
+
+<!--
 **[⬆ back to top](#table-of-contents)**
 -->
 
@@ -1010,6 +1027,7 @@ browserconfig.xml の必要最小限の構成は以下:
 > * 🛠 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
 > * 🛠 [Test your mobile speed with Google](https://testmysite.withgoogle.com)
 > * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
+> * 🛠 [GTmetrix - Website speed and performance optimization](https://gtmetrix.com/)
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -1082,6 +1100,7 @@ browserconfig.xml の必要最小限の構成は以下:
 - [ ] **Role main:** ![High][high_img] `<main>` には `role="main"` がある。
 
 > * 📖 [Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/GL/wiki/Using_ARIA_landmarks_to_identify_regions_of_a_page)
+> * 📖 [ARIA roles categorization](https://www.w3.org/TR/wai-aria/roles#roles_categorization)
 
 <!--
 ### Semantics
@@ -1179,7 +1198,6 @@ browserconfig.xml の必要最小限の構成は以下:
 
 > * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
 > * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
-
 
 <!--
 **[⬆ back to top](#table-of-contents)**
