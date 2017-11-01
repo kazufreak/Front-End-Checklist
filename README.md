@@ -335,7 +335,7 @@ browserconfig.xml の必要最小限の構成は以下:
 
 * [ ] **インラインクリティカル CSS:** ![Medium][medium_img] ページロード時にすぐに表示される部分のコンテンツを整える CSS は（"above the fold content"）、クリティカル CSS によってコールされている。それは、主要な CSS の前の `<style></style>` の間に記述されている。（圧縮されている）
 
-> * 🛠 [Critical by Addy Osmani on Github](https://github.com/addyosmani/critical) automates this
+> * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) は、これを自動的に行います。
 
 <!--
 * [ ] **CSS order:** ![High][high_img] All CSS files are loaded before any JavaScript files in the `<head>`. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
