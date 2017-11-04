@@ -134,9 +134,10 @@ Some resources possess an emoticon to help you understand which type of content 
 
 <!--
 * [ ] **Charset:** ![High][high_img] The charset declared (UTF-8) is declared correctly.
+* [ ] **Charset:** ![High][high_img] The charset (UTF-8) is declared correctly.
 -->
 
-* [ ] **文字コード:** ![High][high_img] 文字コードの宣言 (UTF-8) が正しく宣言されている。
+* [ ] **文字コード:** ![High][high_img] 文字コード (UTF-8) が正しく宣言されている。
 
 ```html
 <!-- Set character encoding for the document -->
@@ -218,7 +219,7 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [PNG favicons - caniuse](https://caniuse.com/#feat=link-icon-png)
 
 <!--
-* [ ] **Apple Touch Icon:** ![Low][low_img] Apple touch favicon apple-mobile-web-app-capable are present. *(Create your Apple Icon file with at least 200x200px dimension to support all dimensions that you may need)*
+* [ ] **Apple Touch Icon:** ![Low][low_img] Apple touch favicon apple-mobile-web-app-capable are present *(Create your Apple Icon file with at least 200x200px dimension to support all dimensions that you may need).*
 -->
 
 * [ ] **Apple Touch Icon:** ![Low][low_img] apple-mobile-web-app-capable がある。 *(すくなくとも 200x200pxのAppleアイコンファイルを作成すれば、必要な全ての寸法をサポートする。)*
@@ -362,7 +363,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **Facebook Open Graph:** ![Low][low_img] すべての Facebook Open Graph (OG) はテストされ、不足がなく不具合もない。画像サイズは少なくとも 600 x 315 ピクセル以上であり、1200 x 630 ピクセルを推奨する。
 
 <!--
-> **Notes:** Using use `og:image:width` and `og:image:height` will specify the image dimensions to the crawler so that it can render the image immediately without having to asynchronously download and process it.
+> **Notes:** Using `og:image:width` and `og:image:height` will specify the image dimensions to the crawler so that it can render the image immediately without having to asynchronously download and process it.
 -->
 
 > **備考:** `og:image:width` と `og:image:height` を使用して画像の縦横サイズを指定すると、非同期にダウンロードして処理することなく、即座に画像をレンダリングすることができます。
@@ -602,7 +603,7 @@ browserconfig.xml の必要最小限の構成は以下:
 ### パフォーマンス
 
 <!--
-- [ ] **Concatenation:** ![High][high_img] CSS files are concatenated in a single file *(Not for HTTP/2)*
+- [ ] **Concatenation:** ![High][high_img] CSS files are concatenated in a single file *(Not for HTTP/2)*.
 - [ ] **Minification:** ![High][high_img] All CSS files are minified.
 - [ ] **Non-blocking:** ![Medium][medium_img] CSS files need to be non-blocking to prevent the DOM from taking time to load.
 -->
@@ -919,7 +920,7 @@ browserconfig.xml の必要最小限の構成は以下:
 ### ベストプラクティス
 
 <!--
-- [ ] **Weight page:** ![High][high_img] The weight of each page is between 0 and 500 KB.
+- [ ] **Page weight:** ![High][high_img] The weight of each page is between 0 and 500 KB.
 -->
 
 - [ ] **ページの重さ:** ![High][high_img] それぞれのページの重さは 500 KB以下である。
@@ -979,7 +980,7 @@ browserconfig.xml の必要最小限の構成は以下:
 ```
 
 <!--
-* [ ] **Preconnection:** ![Low][low_img] DNS lookup, TCP handshake and TLS negociation with services that will be needed soon is done in advance during idle time using `preconnect`.
+* [ ] **Preconnection:** ![Low][low_img] DNS lookup, TCP handshake and TLS negotiation with services that will be needed soon is done in advance during idle time using `preconnect`.
 -->
 
 * [ ] **Preconnection:** ![Low][low_img] サードパーティーサービスの DNS ルックアップ、TCP ハンドシェイク及び TLS ネゴシエーションには、`preconnect` を使用してアイドル時間中に事前に行われている。
@@ -1224,6 +1225,7 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 * 🇧🇷 Portuguese: [jcezarms/Front-End-Checklist](https://github.com/jcezarms/Front-End-Checklist)
 * 🇻🇳 Vietnamese: [euclid1990/Front-End-Checklist](https://github.com/euclid1990/Front-End-Checklist)
 * 🇹🇼 Traditional Chinese: [EngineLin/Front-End-Checklist](https://github.com/EngineLin/Front-End-Checklist)
+* 🇫🇷 French: [ynizon/Front-End-Checklist](https://github.com/ynizon/Front-End-Checklist)
 
 ---
 
