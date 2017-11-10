@@ -933,7 +933,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **Minified HTML:** ![Medium][medium_img] Your HTML is minified.
 -->
 
-- [ ] **圧縮（Minify）:** ![Medium][medium_img] HTML が圧縮されている。
+- [ ] **Minified HTML:** ![Medium][medium_img] HTML が圧縮 (Minify) されている。
 
 <!--
 * [ ] **Lazy loading:** ![Medium][medium_img] Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections).
