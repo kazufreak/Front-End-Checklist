@@ -1,7 +1,10 @@
-<!--
-# Front-End Checklist
--->
-# フロントエンドチェックリスト
+[![Front-End Checklist Logo](https://github.com/thedaviddias/Front-End-Checklist/blob/master/src/img/banners/front-end-checklist-banner-light.jpg?raw=true)](http://frontendchecklist.com)
+
+<h2 align="center"><a href="http://frontendchecklist.com">Front-End Checklist</a></h2>
+
+<p align="center">
+  <em>The Front-End Checklist is an exhaustive list of all elements you need to have / to test before launching your site / HTML page to production.</em>
+</p>
 
 [![Join the chat at https://gitter.im/Front-End-Checklist/Lobby](https://badges.gitter.im/Front-End-Checklist/Lobby.svg)](https://gitter.im/Front-End-Checklist/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
@@ -22,13 +25,9 @@ It is based on Front-End developers' years of experience, with the additions com
 
 これは、フロントエンド開発者たちの数年に及ぶ経験にもとづいており、さらに他のオープンソースのチェックリストの内容も追加されています。
 
-<!--
-*Help to share the Front-End Checklist by voting and recommending on Product Hunt*
-[![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
--->
-
-*Product Hunt で投票または推薦をして、フロントエンドチェックリストが広まるようにご協力をお願いします。*
-[![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/HxqChNNHFKFaMpEpEikk4EM4/thedaviddias/Front-End-Checklist'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/HxqChNNHFKFaMpEpEikk4EM4/thedaviddias/Front-End-Checklist.svg' />
+</a>
 
 <!--
 ## Table of Contents
@@ -772,7 +771,11 @@ browserconfig.xml の必要最小限の構成は以下:
 
 > * 📖 [Minify Resources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
 
-* [ ] **JavaScript セキュリティ:**
+<!--
+* [ ] **JavaScript security:** ![High][high_img]
+-->
+
+* [ ] **JavaScript セキュリティ:** ![High][high_img]
 
 > * 📖 [Guidelines for Developing Secure Applications Utilizing JavaScript](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript)
 
@@ -942,7 +945,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **Lazy loading:** ![Medium][medium_img] 画像やスクリプト、CSS は、レスポンス時間を改善するために遅延ロードされている。（それぞれのセクションで詳細をみてください。）
 
 <!--
-* [ ] **Cookie size:** If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **Cookie size:** ![Medium][medium_img] If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
 -->
 
 * [ ] **Cookie size:** もし Cookie を使用しているなら、4096 バイトを超えていないこと、20以上の Cookie を使用していないこと。
@@ -1166,8 +1169,18 @@ browserconfig.xml の必要最小限の構成は以下:
 
 <!--
 * [ ] **Google Analytics:** ![High][high_img] Google Analytics is installed and correctly configured.
+
+> * 🛠 [Google Analytics](https://analytics.google.com/analytics/web/)
+> * 🛠 [GA Checker (and others)](http://www.gachecker.com/)
+
 * [ ] **Headings logic:** ![Medium][medium_img] Heading text helps to understand the content in the current page.
+
+> * 🛠 [Tota11y, tab Headings](http://khan.github.io/tota11y/#Try-it)
+
 * [ ] **sitemap.xml:** ![High][high_img] A sitemap.xml exists and was submitted to Google Search Console (previously Google Webmaster Tools).
+
+> * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
+
 * [ ] **robots.txt:** ![High][high_img] The robots.txt is not blocking webpages.
 -->
 
@@ -1176,6 +1189,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **sitemap.xml:** ![High][high_img] `sitemap.xml` が存在しており Google Search Console に登録されている。（旧 Google Webmaster Tools）
 * [ ] **robots.txt:** ![High][high_img] `robots.txt` によってブロックされていないこと。
 
+> * 📖 [The robots.txt file](https://varvy.com/robottxt.html)
 > * 🛠 Test your robots.txt with [Google Robots Testing Tool](https://www.google.com/webmasters/tools/robots-testing-tool)
 
 <!--
@@ -1185,11 +1199,11 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **構造化データ:** ![High][high_img] 構造化データを使用しており、エラーがないことをテストされている。構造化データはクローラーがそのページのコンテンツを理解するための手助けになっている。
 
 > * 📖 [Introduction to Structured Data - Search - Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
-> * 🛠 Test your page with the [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
-> * 🛠 Complete list of vocabularies that can be used as structured data. [Schema.org Full Heirarchy](http://schema.org/docs/full.html)
 > * 📖 [RDFa - Linked Data in HTML](https://rdfa.info/)
 > * 📖 [JSON-LD](https://json-ld.org/)
 > * 📖 [Microdata](https://www.w3.org/TR/microdata/)
+> * 🛠 Test your page with the [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
+> * 🛠 Complete list of vocabularies that can be used as structured data. [Schema.org Full Hierarchy](http://schema.org/docs/full.html)
 
 <!--
 * [ ] **Sitemap HTML:** ![Medium][medium_img] An HTML sitemap is provided and is accessible via a link in the footer of your website.
@@ -1198,7 +1212,18 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **Sitemap HTML:** ![Medium][medium_img] HTML サイトマップが提供されており、フッターのリンクからリンクされている。
 
 > * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
-> * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
+
+* [ ] **Pagination link tags:** ![Medium][medium_img] Provide `rel="prev"` and `rel="next"` to indicate paginated content.
+
+> * 🛠 [Pagination (rel="prev/next") Testing Tool](https://technicalseo.com/seo-tools/rel-prev-next/)
+
+> * 📖 [Pagination guidelines - Google Support](https://support.google.com/webmasters/answer/1663744?hl=en)
+
+```html
+<!-- Example: Pagination link tags for page 2 of a paginated list -->
+<link rel="prev" href="https://example.com/?page=1">
+<link rel="next" href="https://example.com/?page=3">
+```
 
 <!--
 **[⬆ back to top](#table-of-contents)**
@@ -1229,6 +1254,7 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 * 🇹🇼 Traditional Chinese: [EngineLin/Front-End-Checklist](https://github.com/EngineLin/Front-End-Checklist)
 * 🇫🇷 French: [ynizon/Front-End-Checklist](https://github.com/ynizon/Front-End-Checklist)
 * 🇷🇺 Russian: [ungear/Front-End-Checklist](https://github.com/ungear/Front-End-Checklist)
+* 🇹🇷 Turkish: [erdoganoksuz/Front-End-Checklist](https://github.com/erdoganoksuz/Front-End-Checklist), [eraycetinay/Front-End-Checklist](https://github.com/eraycetinay/Front-End-Checklist)
 
 ---
 
@@ -1295,7 +1321,7 @@ If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
 ## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
-<a href="graphs/contributors"><img src="https://opencollective.com/front-end-checklist/contributors.svg?width=890" /></a>
+<a href="https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors"><img src="https://opencollective.com/front-end-checklist/contributors.svg?width=890" /></a>
 
 
 ## Backers
@@ -1332,6 +1358,6 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 **[⬆ トップに戻る](#目次)**
 
-[low_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-low.png
-[medium_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-medium.png
-[high_img]: http://res.cloudinary.com/djnyaloac/image/upload/v1508238836/level-checklist-high.png
+[low_img]: https://front-end-checklist.now.sh/low.svg
+[medium_img]: https://front-end-checklist.now.sh/medium.svg
+[high_img]: https://front-end-checklist.now.sh/high.svg
