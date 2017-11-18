@@ -733,7 +733,7 @@ browserconfig.xml の必要最小限の構成は以下:
 * [ ] **Retina:** ![Low][low_img] Retina ディスプレイをサポートするために2倍または3倍のイメージサイズの画像を提供している。
 * [ ] **Sprite:** ![Medium][medium_img] 小さい画像はスプライト画像にまとめられている。（アイコンの場合は、SVGスプライトイメージに含めることができます。）
 * [ ] **Width and Height:** ![High][high_img] 最終的に表示される際のサイズがわかっている場合、すべての `<img>` は、`height` と `width` が指定されている。（`px` または `%` を指定しない。）
-* [ ] **Alt テキスト:** ![High][high_img] すべての ``<img>`` は Alt テキストが代替えテキストとして指定されていること。
+* [ ] **Alt テキスト:** ![High][high_img] すべての ``<img>`` は Alt テキストが代替テキストとして指定されていること。
 
 > * 📖 [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/)
 
