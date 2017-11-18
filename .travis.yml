@@ -24,13 +24,13 @@ branches:
   only:
     - master
     - /^greenkeeper/.*$/
-deploy:
-  local_dir: dist
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  on:
-    branch: master
+# deploy:
+#   local_dir: dist
+#   provider: pages
+#   skip_cleanup: true
+#   github_token: $GITHUB_TOKEN
+#   on:
+#     branch: master
 env:
   global:
     - QIITA_POST_ID: 8fff46c201bf9eaeba4a
